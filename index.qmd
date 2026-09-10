@@ -13,33 +13,30 @@ about:
       href: "mailto:lliebich@hbs.edu"
     - icon: google
       text: Scholar
-      href: "https://scholar.google.com/citations?user=YOUR-SCHOLAR-ID"
-    - icon: github
-      text: GitHub
-      href: "https://github.com/YOUR-GITHUB-USERNAME"
+      href: "https://scholar.google.com/citations?user=cl_MymMAAAAJ"
     - icon: file-earmark-text
       text: CV
       href: cv.qmd
 ---
 
-I am a **Postdoctoral Fellow** in the Digital Reskilling Lab at the **Harvard
+I am a **Postdoctoral Fellow in the Digital Reskilling Lab at the Harvard
 Business School AI Institute** and a Research Affiliate of the Leibniz Institute
-for Financial Research SAFE. Before joining HBS, I completed my PhD in Economics
-at the Graduate School of Economics, Finance and Management at Goethe University
-Frankfurt, supervised by Christine Laudenbach and Michael Kosfeld.
+for Financial Research SAFE. Before joining HBS, I completed my **PhD in Economics**
+at the Graduate School of Economics, Finance and Management at **Goethe University
+Frankfurt**, supervised by Christine Laudenbach and Michael Kosfeld. 
 
-The rapid advance of artificial intelligence (AI) holds great promise for
-improving efficiency and organizational decision-making, yet also raises profound
-questions about transparency and the evolving role of human workers in modern
-organizations. These tensions motivate my work: How can AI systems be implemented
-responsibly to complement — rather than replace — human judgment and expertise?
+During my PhD, I visited the Department of Decisions, Operations and Technology at CUHK Business School, Hong Kong, and the Centre for Brain, Mind and Markets at the University of Melbourne.
 
-In particular, I study how algorithmic design features, such as explainable AI,
-shape human beliefs, (meta-)cognition, trust, and collaboration across different
-stakeholder groups (direct users, service providers and consumers).
+Artificial intelligence (AI) promises gains in organizational efficiency and decision-making, but raises profound questions about transparency and the evolving role of human workers. **My research asks: How can AI systems be implemented
+responsibly to complement — rather than replace — human judgment and expertise?**
 
-I approach these questions from a behavioral, individual-level perspective,
-combining theory-driven incentivized experiments (online, lab-in-the-field,
-field) with large-scale surveys, often in collaboration with industry partners in
-real estate, banking, or fintech. A separate strand of work examines the
-potential of evidence-based behavioral interventions to motivate debt repayment.
+In particular, I study how algorithmic design features, such as **explainable AI (XAI)**,
+shape human beliefs, (meta-)cognition, trust and decision-making across different
+stakeholder groups.
+
+I approach these questions from a **behavioral, micro-level perspective**,
+combining **theory-driven incentivized experiments** (online, lab-in-the-field,
+field) with **large-scale surveys**, often in **collaboration with industry partners** in
+real estate, banking, or fintech. 
+
+A separate strand of work examines the potential of evidence-based behavioral interventions to motivate debt repayment.

@@ -16,3 +16,7 @@
 # from that folder, so the rendered output must be committed.
 
 **/*.quarto_ipynb
+
+# LaTeX CV source (working files, not published)
+*.tex
+example_cv.pdf

@@ -5,7 +5,7 @@ subtitle: "Last updated: September 2026"
 
 [Download full CV (PDF)](assets/cv/Liebich-CV.pdf){.badge-link}
 
-## Appointments
+## Academic Appointments
 
 :::: {.cv-entry}
 
@@ -13,9 +13,43 @@ subtitle: "Last updated: September 2026"
 
 ::: {.cv-what}
 
-**Postdoctoral Fellow**
+**Postdoctoral Fellow, Digital Reskilling Lab**
 
-[DEPARTMENT, UNIVERSITY]{.cv-where}
+[Harvard Business School AI Institute, Boston, MA]{.cv-where}
+
+:::
+
+::::
+
+:::: {.cv-entry}
+
+[2026 – present]{.cv-date}
+
+::: {.cv-what}
+
+**Research Affiliate**
+
+[Leibniz Institute for Financial Research SAFE, Frankfurt am Main, Germany]{.cv-where}
+
+:::
+
+::::
+
+## Education
+
+:::: {.cv-entry}
+
+[2020 – 2025]{.cv-date}
+
+::: {.cv-what}
+
+**PhD in Economics, *summa cum laude***
+
+[Graduate School of Economics, Finance and Management (GSEFM), Goethe University Frankfurt]{.cv-where}
+
+Dissertation: *Essays on Human-AI Interaction and Household Finance*
+
+Committee: Christine Laudenbach, Michael Kosfeld, Guido Friebel, Florian Hett
 
 :::
 
@@ -27,27 +61,11 @@ subtitle: "Last updated: September 2026"
 
 ::: {.cv-what}
 
-**Research Associate**
+**Visiting Scholar**
 
-[DEPARTMENT, UNIVERSITY]{.cv-where}
+[Centre for Brain, Mind and Markets, University of Melbourne, Australia]{.cv-where}
 
-:::
-
-::::
-
-## Education
-
-:::: {.cv-entry}
-
-[2021 – 2025]{.cv-date}
-
-::: {.cv-what}
-
-**PhD in FIELD**
-
-[UNIVERSITY]{.cv-where}
-
-Thesis: *Title of your dissertation*. Supervisor: ADVISOR NAME.
+Two-month research stay at the invitation of Carsten Murawski.
 
 :::
 
@@ -55,13 +73,15 @@ Thesis: *Title of your dissertation*. Supervisor: ADVISOR NAME.
 
 :::: {.cv-entry}
 
-[2019 – 2021]{.cv-date}
+[2025]{.cv-date}
 
 ::: {.cv-what}
 
-**MSc in FIELD**
+**Visiting Scholar**
 
-[UNIVERSITY]{.cv-where}
+[Department of Decisions, Operations and Technology, CUHK Business School, Hong Kong SAR]{.cv-where}
+
+Two-month research stay at the invitation of Jenny Jin.
 
 :::
 
@@ -69,29 +89,123 @@ Thesis: *Title of your dissertation*. Supervisor: ADVISOR NAME.
 
 :::: {.cv-entry}
 
-[2016 – 2019]{.cv-date}
+[2020 – 2025]{.cv-date}
 
 ::: {.cv-what}
 
-**BA in FIELD**
+**MSc in Quantitative Economics**
 
-[UNIVERSITY]{.cv-where}
+[Graduate School of Economics, Finance and Management (GSEFM), Goethe University Frankfurt]{.cv-where}
+
+Focus: applied econometrics, household finance, experimental finance.
 
 :::
 
 ::::
 
-## Grants & fellowships
-
 :::: {.cv-entry}
 
-[2026 – 2028]{.cv-date}
+[2016 – 2020]{.cv-date}
 
 ::: {.cv-what}
 
-**GRANT NAME — FUNDER**
+**BSc in Economics**
 
-[€XX,XXX · Role: Principal Investigator]{.cv-where}
+[University of Bonn, Germany]{.cv-where}
+
+Focus: experimental economics, game theory, contract theory, applied microeconometrics.
+
+:::
+
+::::
+
+## Research Interests
+
+Human-AI collaboration · household finance · behavioral and experimental economics
+
+## Teaching
+
+:::: {.cv-entry}
+
+[2025]{.cv-date}
+
+::: {.cv-what}
+
+**Teaching Assistant, *Machine Learning for Management Decisions***
+
+[MBA course with Kevin Bauer, Gutenberg School of Business, JGU Mainz]{.cv-where}
+
+:::
+
+::::
+
+:::: {.cv-entry}
+
+[2019]{.cv-date}
+
+::: {.cv-what}
+
+**Teaching Assistant, *Financial Markets and Institutions***
+
+[BSc Economics course with Isabel Schnabel, University of Bonn]{.cv-where}
+
+Two weekly tutorials of up to 25 students.
+
+:::
+
+::::
+
+## Awards, Grants & Fellowships
+
+:::: {.cv-entry}
+
+[2025]{.cv-date}
+
+::: {.cv-what}
+
+**Best Discussion Award**
+
+[9th SAFE Household Finance Workshop, sponsored by Behavioural Finance e.V. (€1,000)]{.cv-where}
+
+:::
+
+::::
+
+:::: {.cv-entry}
+
+[2020 – 2021]{.cv-date}
+
+::: {.cv-what}
+
+**First-Year PhD Scholarship**
+
+[Leibniz Institute for Financial Research SAFE]{.cv-where}
+
+:::
+
+::::
+
+## Invited Talks & Presentations
+
+:::: {.cv-entry}
+
+[2026]{.cv-date}
+
+::: {.cv-what}
+
+4th Workshop on Behavioral, Digital and Financial Economics, JGU Mainz (presentation) · Digital Economy Workshop (presentation) · SAFE Brown Bag Seminar (presentation)
+
+:::
+
+::::
+
+:::: {.cv-entry}
+
+[2025]{.cv-date}
+
+::: {.cv-what}
+
+SAFE Junior Scholars Workshop: The New World of Corporate Boards (presentation) · 3rd Workshop on Behavioral, Digital and Financial Economics, JGU Mainz (presentation) · University of Oxford, Faculty of Law (presentation) · 9th SAFE Household Finance Workshop (discussion) · CUHK Business School (presentation) · 38th Australasian Finance and Banking Conference, UNSW Business School (presentation)
 
 :::
 
@@ -103,15 +217,93 @@ Thesis: *Title of your dissertation*. Supervisor: ADVISOR NAME.
 
 ::: {.cv-what}
 
-**FELLOWSHIP NAME — FUNDER**
-
-[€XX,XXX]{.cv-where}
+2nd Workshop on Behavioral, Digital and Financial Economics, JGU Mainz (presentation) · SAFE Brown Bag Seminar (presentation) · 9th Spring School in Behavioral Economics, UCSD Rady School of Management (poster) · Machine+Behavior Conference, MPI / Toulouse School of Economics / University of British Columbia (poster) · 8th SAFE Household Finance Workshop (discussion) · EconTribute Workshop on Human-AI Collaboration, University of Cologne (lightning talk)
 
 :::
 
 ::::
 
-## Awards
+:::: {.cv-entry}
+
+[2023]{.cv-date}
+
+::: {.cv-what}
+
+1st Workshop on Behavioral, Digital and Financial Economics, JGU Mainz (presentation) · PhD course *Subjective Beliefs, Attention and Economic Behavior*, University of Copenhagen (poster) · 1st Bonn-Frankfurt-Mannheim PhD Conference (presentation) · Workshop on Interactions of Humans and Algorithms, TU Berlin (poster) · SAFE Brown Bag Seminar (presentation) · Society for Experimental Finance Summer School, University of Sofia · 7th SAFE Household Finance Workshop (presentation) · CORA Conference on Robots and Automation, Goethe University (presentation) · ZEW / University of Mannheim Experimental Seminar (presentation)
+
+:::
+
+::::
+
+:::: {.cv-entry}
+
+[2022]{.cv-date}
+
+::: {.cv-what}
+
+6th SAFE Household Finance Workshop (discussion)
+
+:::
+
+::::
+
+## Academic Service
+
+:::: {.cv-entry}
+
+[2022 – 2025]{.cv-date}
+
+::: {.cv-what}
+
+**Supervision of Master's and Bachelor's theses**
+
+[Department of Household Finance, Leibniz Institute for Financial Research SAFE]{.cv-where}
+
+:::
+
+::::
+
+:::: {.cv-entry}
+
+[2022 – 2024]{.cv-date}
+
+::: {.cv-what}
+
+**Representative of PhD Researchers**
+
+[Leibniz Institute for Financial Research SAFE]{.cv-where}
+
+:::
+
+::::
+
+:::: {.cv-entry}
+
+[2020 – 2024]{.cv-date}
+
+::: {.cv-what}
+
+**Member of Student Representatives**
+
+[Graduate School of Economics, Finance and Management (GSEFM)]{.cv-where}
+
+:::
+
+::::
+
+:::: {.cv-entry}
+
+[2023]{.cv-date}
+
+::: {.cv-what}
+
+**Organizing Committee, 1st Bonn-Frankfurt-Mannheim PhD Conference**
+
+[Goethe University Frankfurt · Keynote by Ulrike Malmendier]{.cv-where}
+
+:::
+
+::::
 
 :::: {.cv-entry}
 
@@ -119,25 +311,25 @@ Thesis: *Title of your dissertation*. Supervisor: ADVISOR NAME.
 
 ::: {.cv-what}
 
-**AWARD NAME**
+**Referee**
 
-[Awarding body]{.cv-where}
+[European Conference on Information Systems (ECIS)]{.cv-where}
 
 :::
 
 ::::
 
-## Teaching
+## Professional Experience
 
 :::: {.cv-entry}
 
-[2026]{.cv-date}
+[2022 – 2025]{.cv-date}
 
 ::: {.cv-what}
 
-**Course title — Lecturer**
+**Junior Researcher / Doctoral Student**
 
-[UNIVERSITY · MSc level]{.cv-where}
+[Department of Household Finance, Leibniz Institute for Financial Research SAFE, Frankfurt am Main, Germany]{.cv-where}
 
 :::
 
@@ -145,26 +337,136 @@ Thesis: *Title of your dissertation*. Supervisor: ADVISOR NAME.
 
 :::: {.cv-entry}
 
-[2023 – 2025]{.cv-date}
+[2022 – 2023]{.cv-date}
 
 ::: {.cv-what}
 
-**Course title — Teaching Assistant**
+**Academic Researcher**
 
-[UNIVERSITY · BA level]{.cv-where}
+[European Central Bank, DG Macroprudential Policy and Financial Stability, Frankfurt am Main, Germany]{.cv-where}
+
+Research on market-based indicators of climate systemic risk.
 
 :::
 
 ::::
 
-## Service
+:::: {.cv-entry}
 
-- Reviewer: *Journal One*, *Journal Two*
-- Organiser, WORKSHOP NAME (2026)
-- Member, COMMITTEE NAME
+[2022]{.cv-date}
 
-## Skills
+::: {.cv-what}
 
-**Languages** · German (native), English (fluent), OTHER (level)
+**Trainee**
 
-**Software** · R, Python, Stata, Quarto, LaTeX, Git
+[European Central Bank, DG Macroprudential Policy and Financial Stability, Frankfurt am Main, Germany]{.cv-where}
+
+:::
+
+::::
+
+:::: {.cv-entry}
+
+[2021 – 2022]{.cv-date}
+
+::: {.cv-what}
+
+**Student Research Assistant**
+
+[Leibniz Institute for Financial Research SAFE, Frankfurt am Main, Germany]{.cv-where}
+
+:::
+
+::::
+
+:::: {.cv-entry}
+
+[2020]{.cv-date}
+
+::: {.cv-what}
+
+**Research Intern**
+
+[Scientific Staff of the German Council of Economic Experts (GCEE), Wiesbaden, Germany]{.cv-where}
+
+Empirical analysis of the carbon intensity of the ECB's bond purchases under the Corporate Sector Purchase Programme, contributing to GCEE working papers 05/2020 and 05/2021.
+
+:::
+
+::::
+
+:::: {.cv-entry}
+
+[2019 – 2020]{.cv-date}
+
+::: {.cv-what}
+
+**Consulting Assistant**
+
+[CPC Unternehmensmanagement AG, Bonn & Frankfurt am Main, Germany]{.cv-where}
+
+Conceptual framework for blended-learning experiences in HR applications.
+
+:::
+
+::::
+
+:::: {.cv-entry}
+
+[2018]{.cv-date}
+
+::: {.cv-what}
+
+**Consulting Intern**
+
+[CPC Unternehmensmanagement AG, Frankfurt am Main, Germany]{.cv-where}
+
+Organisational change management concept for a large logistics firm; data analysis and visualisation.
+
+:::
+
+::::
+
+:::: {.cv-entry}
+
+[2017 – 2018]{.cv-date}
+
+::: {.cv-what}
+
+**Student Assistant, Editorial Office *Documentaries***
+
+[phoenix / ZDF, Bonn, Germany]{.cv-where}
+
+:::
+
+::::
+
+:::: {.cv-entry}
+
+[2015 – 2016]{.cv-date}
+
+::: {.cv-what}
+
+**German Language Tutor (gap year)**
+
+[German School Abroad Bilbao, Spain]{.cv-where}
+
+:::
+
+::::
+
+## Affiliations
+
+Harvard Business School AI Institute · Leibniz Institute for Financial Research SAFE (Research Affiliate) · Behavioural Finance e.V. (Member) · Mentoring Hessen, ProCareer.Doc Program (2024 cohort)
+
+## Personal
+
+**Software** · Stata, Python, LaTeX, oTree, MS Office
+
+**Languages** · German (native), English (fluent), Spanish (fluent)
+
+**Citizenship** · German
+
+## References
+
+Available on request.
