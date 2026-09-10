@@ -37,24 +37,3 @@ supervision of ADVISOR.
 **Currently:** open to collaborations on TOPIC. Feel free to
 [get in touch](mailto:lliebich@hbs.edu).
 :::
-
-## Research interests
-
-- Interest one
-- Interest two
-- Interest three
-- Interest four
-
-## News
-
-::: {.pub}
-**Sep 2026** · New paper accepted at *JOURNAL NAME*.
-:::
-
-::: {.pub}
-**Jun 2026** · Presented at CONFERENCE, CITY.
-:::
-
-::: {.pub}
-**Mar 2026** · Started as a Postdoctoral Fellow at UNIVERSITY.
-:::

@@ -4,8 +4,9 @@
 $ink:        #1f2328;   // body text
 $ink-soft:   #5c6570;   // secondary text
 $paper:      #fdfdfc;   // page background
-$accent:     #2c5545;   // links & highlights (deep green)
-$accent-dk:  #1c3a2e;
+$accent:     #0f766e;   // links & highlights (teal)
+$accent-dk:  #0a544e;
+$accent-tint:#e6f2f1;   // soft teal wash for keyword pills
 $rule:       #e6e4df;   // hairlines
 
 $body-bg:     $paper;
@@ -111,12 +112,26 @@ a {
   border-bottom: 1px solid $rule;
   &:last-child { border-bottom: none; }
 
+  p { margin-bottom: 0.35rem; }
+  p:last-child { margin-bottom: 0; }
+
   .pub-title  { font-weight: 600; }
   .pub-venue  { color: $ink-soft; font-style: italic; }
   .pub-meta   { color: $ink-soft; font-size: 0.9rem; }
 }
 
-// Small pill links: [PDF] [DOI] [Code]
+// Keywords: soft teal wash, no border — visually distinct from action links
+.pub-keywords {
+  display: inline-block;
+  font-size: 0.82rem;
+  color: $accent-dk;
+  background: $accent-tint;
+  border-radius: 3px;
+  padding: 0.15rem 0.5rem;
+  margin-bottom: 0.15rem;
+}
+
+// Small pill links: [PDF] [DOI]
 .pub-links a, .badge-link {
   display: inline-block;
   font-size: 0.78rem;

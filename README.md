@@ -30,9 +30,7 @@ GitHub Pages rebuilds within a minute or two.
 |---|---|
 | `_quarto.yml` | Site config: title, navbar, theme, footer |
 | `index.qmd` | Landing page / about |
-| `research.qmd` | Research focus |
-| `projects/` | One `.qmd` per project; `index.qmd` lists them automatically |
-| `publications.qmd` | Publication list |
+| `research.qmd` | Research focus + publications, work in progress, policy papers |
 | `cv.qmd` | Web CV |
 | `bib/refs.bib` | BibTeX references for inline citations |
 | `assets/styles.scss` | Custom styling |

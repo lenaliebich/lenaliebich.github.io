@@ -1,42 +1,80 @@
 ---
 title: "Research"
-subtitle: "What I work on and why"
+subtitle: "What I work on, and what has come out of it"
 ---
 
 Open with a short framing paragraph: the overarching question that connects your
 work, stated in language a colleague from a neighbouring field would follow.
-Three or four sentences is plenty.
+Say what puzzle you are chasing, the methods you bring to it, and why the answer
+matters beyond your subfield. Three or four sentences is plenty — this is the
+paragraph a search committee actually reads.
 
-## Theme one: SHORT TITLE
+An up-to-date list is also on
+[Google Scholar](https://scholar.google.com/citations?user=YOUR-SCHOLAR-ID) and
+[ORCID](https://orcid.org/YOUR-ORCID-ID). † denotes equal contribution.
 
-Describe the puzzle, your approach, and what you have found so far. Cite your own
-and others' work inline like this [@yourkey2025], which pulls the entry from
-`bib/refs.bib` and adds it to the reference list at the bottom of the page.
+## Publications
 
-**Selected output:** [Paper title](publications.qmd) · [Replication code](https://github.com/YOUR-GITHUB-USERNAME/repo)
+::: {.pub}
+[Title of the article goes here in full]{.pub-title}<br>
+Liebich, L., & Coauthor, A. (2026)<br>
+[Journal Name, 12(3), 145–178.]{.pub-venue}
 
-## Theme two: SHORT TITLE
+[Keywords: keyword one · keyword two · keyword three]{.pub-keywords}
 
-A second strand of work. Where theme one asks X, this asks Y.
+[PDF](assets/files/paper2026.pdf){.badge-link}
+[DOI](https://doi.org/10.XXXX/XXXXX){.badge-link}
+:::
 
-**Selected output:** [Working paper](publications.qmd)
+::: {.pub}
+[An earlier article with a slightly longer title]{.pub-title}<br>
+Coauthor, B.†, & Liebich, L.† (2025)<br>
+[Another Journal, 8(1), 22–49.]{.pub-venue}
 
-## Theme three: SHORT TITLE
+[Keywords: keyword one · keyword two]{.pub-keywords}
 
-Newer or more speculative work — signalling direction is useful to search
-committees and potential collaborators.
+[PDF](assets/files/paper2025.pdf){.badge-link}
+[DOI](https://doi.org/10.XXXX/XXXXX){.badge-link}
+:::
 
-## Methods
+## Work in Progress
 
-A short note on the methodological toolkit you bring: e.g. causal inference with
-observational data, longitudinal modelling, experimental design, computational
-text analysis. Link to any tools or packages you maintain.
+::: {.pub}
+[Title of the working paper]{.pub-title}<br>
+Liebich, L. (2026)<br>
+[Under review.]{.pub-venue}
 
-## Funding
+[Keywords: keyword one · keyword two · keyword three]{.pub-keywords}
 
-- **GRANT NAME**, FUNDER, YEAR–YEAR (Role: PI / Co-I)
-- **FELLOWSHIP NAME**, FUNDER, YEAR–YEAR
+[Preprint](https://osf.io/preprints/XXXXX){.badge-link}
+:::
 
----
+::: {.pub}
+[A second paper in progress]{.pub-title}<br>
+Liebich, L., & Coauthor, C.<br>
+[Manuscript in preparation.]{.pub-venue}
 
-### References
+[Keywords: keyword one · keyword two]{.pub-keywords}
+:::
+
+## Policy Papers (Pre-PhD)
+
+::: {.pub}
+[Title of the policy paper]{.pub-title}<br>
+Liebich, L. (2020)<br>
+[Institution or Series Name, Report No. 14.]{.pub-venue}
+
+[Keywords: keyword one · keyword two]{.pub-keywords}
+
+[PDF](assets/files/policy2020.pdf){.badge-link}
+:::
+
+::: {.pub}
+[A second policy paper]{.pub-title}<br>
+Liebich, L., & Coauthor, D. (2019)<br>
+[Institution or Series Name.]{.pub-venue}
+
+[Keywords: keyword one · keyword two]{.pub-keywords}
+
+[Link](https://example.org){.badge-link}
+:::

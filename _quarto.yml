@@ -9,7 +9,6 @@ project:
     - ".nojekyll"          # stops GitHub Pages running Jekyll over Quarto output
   render:
     - "*.qmd"
-    - "projects/*.qmd"
 
 website:
   title: "Lena Liebich"
@@ -24,10 +23,6 @@ website:
         text: About
       - href: research.qmd
         text: Research
-      - href: projects/index.qmd
-        text: Projects
-      - href: publications.qmd
-        text: Publications
       - href: cv.qmd
         text: CV
     right:
