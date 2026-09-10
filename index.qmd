@@ -27,7 +27,9 @@ Frankfurt**, supervised by Christine Laudenbach and Michael Kosfeld.
 
 During my PhD, I visited the Department of Decisions, Operations and Technology at CUHK Business School, Hong Kong, and the Centre for Brain, Mind and Markets at the University of Melbourne.
 
-Artificial intelligence (AI) promises gains in organizational efficiency and decision-making, but raises profound questions about transparency and the evolving role of human workers. **My research asks: How can AI systems be implemented
+Artificial intelligence (AI) promises gains in organizational efficiency and decision-making, but raises profound questions about transparency and the evolving role of human workers. 
+
+**My research asks: How can AI systems be implemented
 responsibly to complement — rather than replace — human judgment and expertise?**
 
 In particular, I study how algorithmic design features, such as **explainable AI (XAI)**,
