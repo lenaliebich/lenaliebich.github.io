@@ -4,7 +4,7 @@ subtitle: "Postdoctoral Fellow · DEPARTMENT, UNIVERSITY"
 pagetitle: "Lena Liebich"
 about:
   template: trestles
-  image: assets/img/profile.svg
+  image: assets/img/profile.jpg
   image-shape: round
   image-width: 14em
   links:
