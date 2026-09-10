@@ -1,0 +1,170 @@
+---
+title: "Curriculum Vitae"
+subtitle: "Last updated: September 2026"
+---
+
+[Download full CV (PDF)](assets/cv/Liebich-CV.pdf){.badge-link}
+
+## Appointments
+
+:::: {.cv-entry}
+
+[2026 – present]{.cv-date}
+
+::: {.cv-what}
+
+**Postdoctoral Fellow**
+
+[DEPARTMENT, UNIVERSITY]{.cv-where}
+
+:::
+
+::::
+
+:::: {.cv-entry}
+
+[2025 – 2026]{.cv-date}
+
+::: {.cv-what}
+
+**Research Associate**
+
+[DEPARTMENT, UNIVERSITY]{.cv-where}
+
+:::
+
+::::
+
+## Education
+
+:::: {.cv-entry}
+
+[2021 – 2025]{.cv-date}
+
+::: {.cv-what}
+
+**PhD in FIELD**
+
+[UNIVERSITY]{.cv-where}
+
+Thesis: *Title of your dissertation*. Supervisor: ADVISOR NAME.
+
+:::
+
+::::
+
+:::: {.cv-entry}
+
+[2019 – 2021]{.cv-date}
+
+::: {.cv-what}
+
+**MSc in FIELD**
+
+[UNIVERSITY]{.cv-where}
+
+:::
+
+::::
+
+:::: {.cv-entry}
+
+[2016 – 2019]{.cv-date}
+
+::: {.cv-what}
+
+**BA in FIELD**
+
+[UNIVERSITY]{.cv-where}
+
+:::
+
+::::
+
+## Grants & fellowships
+
+:::: {.cv-entry}
+
+[2026 – 2028]{.cv-date}
+
+::: {.cv-what}
+
+**GRANT NAME — FUNDER**
+
+[€XX,XXX · Role: Principal Investigator]{.cv-where}
+
+:::
+
+::::
+
+:::: {.cv-entry}
+
+[2024]{.cv-date}
+
+::: {.cv-what}
+
+**FELLOWSHIP NAME — FUNDER**
+
+[€XX,XXX]{.cv-where}
+
+:::
+
+::::
+
+## Awards
+
+:::: {.cv-entry}
+
+[2025]{.cv-date}
+
+::: {.cv-what}
+
+**AWARD NAME**
+
+[Awarding body]{.cv-where}
+
+:::
+
+::::
+
+## Teaching
+
+:::: {.cv-entry}
+
+[2026]{.cv-date}
+
+::: {.cv-what}
+
+**Course title — Lecturer**
+
+[UNIVERSITY · MSc level]{.cv-where}
+
+:::
+
+::::
+
+:::: {.cv-entry}
+
+[2023 – 2025]{.cv-date}
+
+::: {.cv-what}
+
+**Course title — Teaching Assistant**
+
+[UNIVERSITY · BA level]{.cv-where}
+
+:::
+
+::::
+
+## Service
+
+- Reviewer: *Journal One*, *Journal Two*
+- Organiser, WORKSHOP NAME (2026)
+- Member, COMMITTEE NAME
+
+## Skills
+
+**Languages** · German (native), English (fluent), OTHER (level)
+
+**Software** · R, Python, Stata, Quarto, LaTeX, Git

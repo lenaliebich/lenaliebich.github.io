@@ -1,0 +1,66 @@
+# ─────────────────────────────────────────────────────────────
+# Site configuration.
+# Anything in UPPERCASE is a placeholder for you to replace.
+# ─────────────────────────────────────────────────────────────
+project:
+  type: website
+  output-dir: docs          # GitHub Pages serves from main branch /docs
+  resources:
+    - ".nojekyll"          # stops GitHub Pages running Jekyll over Quarto output
+  render:
+    - "*.qmd"
+    - "projects/*.qmd"
+
+website:
+  title: "Lena Liebich"
+  description: "Postdoctoral Fellow — RESEARCH AREA"
+  site-url: "https://YOUR-GITHUB-USERNAME.github.io"
+  open-graph: true
+
+  navbar:
+    pinned: true
+    left:
+      - href: index.qmd
+        text: About
+      - href: research.qmd
+        text: Research
+      - href: projects/index.qmd
+        text: Projects
+      - href: publications.qmd
+        text: Publications
+      - href: cv.qmd
+        text: CV
+    right:
+      - icon: envelope
+        href: "mailto:lliebich@hbs.edu"
+        aria-label: Email
+      - icon: google
+        href: "https://scholar.google.com/citations?user=YOUR-SCHOLAR-ID"
+        aria-label: Google Scholar
+      - icon: github
+        href: "https://github.com/YOUR-GITHUB-USERNAME"
+        aria-label: GitHub
+
+  page-footer:
+    border: false
+    left: "© 2026 Lena Liebich"
+    right: "Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme: [cosmo, assets/styles.scss]
+    toc: false
+    anchor-sections: false
+    link-external-newwindow: true
+    smooth-scroll: true
+    include-in-header:
+      text: |
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,300..700;1,300..700&family=Source+Serif+4:opsz,wght@8..60,300..700&display=swap" rel="stylesheet">
+
+bibliography: bib/refs.bib
+# csl: bib/apa.csl        # optional: drop an APA CSL file here for APA-style references
+
+execute:
+  freeze: auto

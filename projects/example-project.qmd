@@ -1,0 +1,34 @@
+---
+title: "Project title goes here"
+description: "One sentence a non-specialist could follow, describing what this project asks."
+date: 2026-06-01
+categories: [Theme one, Method]
+---
+
+## The question
+
+What are you trying to find out, and why does the answer matter? Two or three
+paragraphs. Assume an interested reader from a neighbouring field.
+
+## Approach
+
+The data, design, and methods. Mention sample sizes, preregistration, and any
+ethics approval where relevant.
+
+## Status
+
+In progress · data collection complete · under review — whichever applies.
+
+## Outputs
+
+- [Paper](../publications.qmd)
+- [Code](https://github.com/YOUR-GITHUB-USERNAME/repo)
+- [Data](https://osf.io/XXXXX)
+
+## Collaborators
+
+NAME (UNIVERSITY), NAME (UNIVERSITY)
+
+## Funding
+
+GRANT NAME, FUNDER.

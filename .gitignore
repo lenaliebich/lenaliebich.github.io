@@ -1,0 +1,18 @@
+# Quarto
+/.quarto/
+*_files/
+*_cache/
+/.luarc.json
+
+# macOS
+.DS_Store
+._*
+
+# Editors
+.vscode/
+.idea/
+
+# Note: /docs is intentionally NOT ignored — GitHub Pages serves the site
+# from that folder, so the rendered output must be committed.
+
+**/*.quarto_ipynb

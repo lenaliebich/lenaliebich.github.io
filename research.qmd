@@ -1,0 +1,42 @@
+---
+title: "Research"
+subtitle: "What I work on and why"
+---
+
+Open with a short framing paragraph: the overarching question that connects your
+work, stated in language a colleague from a neighbouring field would follow.
+Three or four sentences is plenty.
+
+## Theme one: SHORT TITLE
+
+Describe the puzzle, your approach, and what you have found so far. Cite your own
+and others' work inline like this [@yourkey2025], which pulls the entry from
+`bib/refs.bib` and adds it to the reference list at the bottom of the page.
+
+**Selected output:** [Paper title](publications.qmd) · [Replication code](https://github.com/YOUR-GITHUB-USERNAME/repo)
+
+## Theme two: SHORT TITLE
+
+A second strand of work. Where theme one asks X, this asks Y.
+
+**Selected output:** [Working paper](publications.qmd)
+
+## Theme three: SHORT TITLE
+
+Newer or more speculative work — signalling direction is useful to search
+committees and potential collaborators.
+
+## Methods
+
+A short note on the methodological toolkit you bring: e.g. causal inference with
+observational data, longitudinal modelling, experimental design, computational
+text analysis. Link to any tools or packages you maintain.
+
+## Funding
+
+- **GRANT NAME**, FUNDER, YEAR–YEAR (Role: PI / Co-I)
+- **FELLOWSHIP NAME**, FUNDER, YEAR–YEAR
+
+---
+
+### References

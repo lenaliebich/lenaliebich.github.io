@@ -1,0 +1,240 @@
+[
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Open with a short framing paragraph: the overarching question that connects your work, stated in language a colleague from a neighbouring field would follow. Three or four sentences is plenty."
+  },
+  {
+    "objectID": "research.html#theme-one-short-title",
+    "href": "research.html#theme-one-short-title",
+    "title": "Research",
+    "section": "Theme one: SHORT TITLE",
+    "text": "Theme one: SHORT TITLE\nDescribe the puzzle, your approach, and what you have found so far. Cite your own and others’ work inline like this (Liebich and Coauthor 2025), which pulls the entry from bib/refs.bib and adds it to the reference list at the bottom of the page.\nSelected output: Paper title · Replication code"
+  },
+  {
+    "objectID": "research.html#theme-two-short-title",
+    "href": "research.html#theme-two-short-title",
+    "title": "Research",
+    "section": "Theme two: SHORT TITLE",
+    "text": "Theme two: SHORT TITLE\nA second strand of work. Where theme one asks X, this asks Y.\nSelected output: Working paper"
+  },
+  {
+    "objectID": "research.html#theme-three-short-title",
+    "href": "research.html#theme-three-short-title",
+    "title": "Research",
+    "section": "Theme three: SHORT TITLE",
+    "text": "Theme three: SHORT TITLE\nNewer or more speculative work — signalling direction is useful to search committees and potential collaborators."
+  },
+  {
+    "objectID": "research.html#methods",
+    "href": "research.html#methods",
+    "title": "Research",
+    "section": "Methods",
+    "text": "Methods\nA short note on the methodological toolkit you bring: e.g. causal inference with observational data, longitudinal modelling, experimental design, computational text analysis. Link to any tools or packages you maintain."
+  },
+  {
+    "objectID": "research.html#funding",
+    "href": "research.html#funding",
+    "title": "Research",
+    "section": "Funding",
+    "text": "Funding\n\nGRANT NAME, FUNDER, YEAR–YEAR (Role: PI / Co-I)\nFELLOWSHIP NAME, FUNDER, YEAR–YEAR"
+  },
+  {
+    "objectID": "projects/second-project.html",
+    "href": "projects/second-project.html",
+    "title": "A second project",
+    "section": "",
+    "text": "Replace or delete this file — it exists so you can see how the listing page renders with more than one entry."
+  },
+  {
+    "objectID": "projects/second-project.html#the-question",
+    "href": "projects/second-project.html#the-question",
+    "title": "A second project",
+    "section": "",
+    "text": "Replace or delete this file — it exists so you can see how the listing page renders with more than one entry."
+  },
+  {
+    "objectID": "projects/second-project.html#approach",
+    "href": "projects/second-project.html#approach",
+    "title": "A second project",
+    "section": "Approach",
+    "text": "Approach\n…"
+  },
+  {
+    "objectID": "projects/second-project.html#status",
+    "href": "projects/second-project.html#status",
+    "title": "A second project",
+    "section": "Status",
+    "text": "Status\nOngoing."
+  },
+  {
+    "objectID": "projects/example-project.html",
+    "href": "projects/example-project.html",
+    "title": "Project title goes here",
+    "section": "",
+    "text": "What are you trying to find out, and why does the answer matter? Two or three paragraphs. Assume an interested reader from a neighbouring field."
+  },
+  {
+    "objectID": "projects/example-project.html#the-question",
+    "href": "projects/example-project.html#the-question",
+    "title": "Project title goes here",
+    "section": "",
+    "text": "What are you trying to find out, and why does the answer matter? Two or three paragraphs. Assume an interested reader from a neighbouring field."
+  },
+  {
+    "objectID": "projects/example-project.html#approach",
+    "href": "projects/example-project.html#approach",
+    "title": "Project title goes here",
+    "section": "Approach",
+    "text": "Approach\nThe data, design, and methods. Mention sample sizes, preregistration, and any ethics approval where relevant."
+  },
+  {
+    "objectID": "projects/example-project.html#status",
+    "href": "projects/example-project.html#status",
+    "title": "Project title goes here",
+    "section": "Status",
+    "text": "Status\nIn progress · data collection complete · under review — whichever applies."
+  },
+  {
+    "objectID": "projects/example-project.html#outputs",
+    "href": "projects/example-project.html#outputs",
+    "title": "Project title goes here",
+    "section": "Outputs",
+    "text": "Outputs\n\nPaper\nCode\nData"
+  },
+  {
+    "objectID": "projects/example-project.html#collaborators",
+    "href": "projects/example-project.html#collaborators",
+    "title": "Project title goes here",
+    "section": "Collaborators",
+    "text": "Collaborators\nNAME (UNIVERSITY), NAME (UNIVERSITY)"
+  },
+  {
+    "objectID": "projects/example-project.html#funding",
+    "href": "projects/example-project.html#funding",
+    "title": "Project title goes here",
+    "section": "Funding",
+    "text": "Funding\nGRANT NAME, FUNDER."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Download full CV (PDF)"
+  },
+  {
+    "objectID": "cv.html#appointments",
+    "href": "cv.html#appointments",
+    "title": "Curriculum Vitae",
+    "section": "Appointments",
+    "text": "Appointments\n\n2026 – present\n\nPostdoctoral Fellow\nDEPARTMENT, UNIVERSITY\n\n\n\n2025 – 2026\n\nResearch Associate\nDEPARTMENT, UNIVERSITY"
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": "Education",
+    "text": "Education\n\n2021 – 2025\n\nPhD in FIELD\nUNIVERSITY\nThesis: Title of your dissertation. Supervisor: ADVISOR NAME.\n\n\n\n2019 – 2021\n\nMSc in FIELD\nUNIVERSITY\n\n\n\n2016 – 2019\n\nBA in FIELD\nUNIVERSITY"
+  },
+  {
+    "objectID": "cv.html#grants-fellowships",
+    "href": "cv.html#grants-fellowships",
+    "title": "Curriculum Vitae",
+    "section": "Grants & fellowships",
+    "text": "Grants & fellowships\n\n2026 – 2028\n\nGRANT NAME — FUNDER\n€XX,XXX · Role: Principal Investigator\n\n\n\n2024\n\nFELLOWSHIP NAME — FUNDER\n€XX,XXX"
+  },
+  {
+    "objectID": "cv.html#awards",
+    "href": "cv.html#awards",
+    "title": "Curriculum Vitae",
+    "section": "Awards",
+    "text": "Awards\n\n2025\n\nAWARD NAME\nAwarding body"
+  },
+  {
+    "objectID": "cv.html#teaching",
+    "href": "cv.html#teaching",
+    "title": "Curriculum Vitae",
+    "section": "Teaching",
+    "text": "Teaching\n\n2026\n\nCourse title — Lecturer\nUNIVERSITY · MSc level\n\n\n\n2023 – 2025\n\nCourse title — Teaching Assistant\nUNIVERSITY · BA level"
+  },
+  {
+    "objectID": "cv.html#service",
+    "href": "cv.html#service",
+    "title": "Curriculum Vitae",
+    "section": "Service",
+    "text": "Service\n\nReviewer: Journal One, Journal Two\nOrganiser, WORKSHOP NAME (2026)\nMember, COMMITTEE NAME"
+  },
+  {
+    "objectID": "cv.html#skills",
+    "href": "cv.html#skills",
+    "title": "Curriculum Vitae",
+    "section": "Skills",
+    "text": "Skills\nLanguages · German (native), English (fluent), OTHER (level)\nSoftware · R, Python, Stata, Quarto, LaTeX, Git"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Lena Liebich",
+    "section": "",
+    "text": "I am a Postdoctoral Fellow at the DEPARTMENT at UNIVERSITY, where I study ONE-SENTENCE DESCRIPTION OF YOUR RESEARCH — the question you work on and why it matters. Keep this to two or three sentences; visitors decide here whether to read further.\nMy work combines METHOD A and METHOD B to ask how X shapes Y. I am currently working on PROJECT THEME, funded by FUNDER.\nBefore joining UNIVERSITY, I completed my PhD at PHD INSTITUTION under the supervision of ADVISOR."
+  },
+  {
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "Lena Liebich",
+    "section": "Research interests",
+    "text": "Research interests\n\nInterest one\nInterest two\nInterest three\nInterest four"
+  },
+  {
+    "objectID": "index.html#news",
+    "href": "index.html#news",
+    "title": "Lena Liebich",
+    "section": "News",
+    "text": "News\n\nSep 2026 · New paper accepted at JOURNAL NAME.\n\n\nJun 2026 · Presented at CONFERENCE, CITY.\n\n\nMar 2026 · Started as a Postdoctoral Fellow at UNIVERSITY."
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Each entry below is a project page. Add a new one by copying an existing .qmd file in projects/ — it appears in this list automatically, no configuration needed.\n\n\n\n\n\n\n\n\n\nProject title goes here\n\n\n\nTheme one\n\nMethod\n\n\n\nOne sentence a non-specialist could follow, describing what this project asks.\n\n\n\n\n\nJune 2026\n\n\n\n\n\n\n\nA second project\n\n\n\nTheme two\n\n\n\nAnother one-line summary so the listing page has something to show.\n\n\n\n\n\nNovember 2025\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "An up-to-date list is also on Google Scholar and ORCID. † denotes equal contribution."
+  },
+  {
+    "objectID": "publications.html#peer-reviewed-articles",
+    "href": "publications.html#peer-reviewed-articles",
+    "title": "Publications",
+    "section": "Peer-reviewed articles",
+    "text": "Peer-reviewed articles\n\nTitle of the article goes here in full Liebich, L., & Coauthor, A. (2026) Journal Name, 12(3), 145–178.\n PDF DOI Code Data\n\n\nAn earlier article with a slightly longer title Coauthor, B.†, & Liebich, L.† (2025) Another Journal, 8(1), 22–49.\nPDF DOI"
+  },
+  {
+    "objectID": "publications.html#working-papers-preprints",
+    "href": "publications.html#working-papers-preprints",
+    "title": "Publications",
+    "section": "Working papers & preprints",
+    "text": "Working papers & preprints\n\nTitle of the working paper Liebich, L. (2026) Under review.\nPreprint\n\n\nA second paper in progress Liebich, L., & Coauthor, C. Manuscript in preparation."
+  },
+  {
+    "objectID": "publications.html#conference-presentations",
+    "href": "publications.html#conference-presentations",
+    "title": "Publications",
+    "section": "Conference presentations",
+    "text": "Conference presentations\n\nTalk title CONFERENCE NAME, City, June 2026.\nSlides\n\n\nPoster title CONFERENCE NAME, City, September 2025."
+  },
+  {
+    "objectID": "publications.html#other-writing",
+    "href": "publications.html#other-writing",
+    "title": "Publications",
+    "section": "Other writing",
+    "text": "Other writing\n\nPublic-facing piece or book review Outlet, March 2026.\nLink"
+  }
+]

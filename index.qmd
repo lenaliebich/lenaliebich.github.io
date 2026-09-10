@@ -1,0 +1,60 @@
+---
+title: "Lena Liebich"
+subtitle: "Postdoctoral Fellow · DEPARTMENT, UNIVERSITY"
+pagetitle: "Lena Liebich"
+about:
+  template: trestles
+  image: assets/img/profile.svg
+  image-shape: round
+  image-width: 14em
+  links:
+    - icon: envelope
+      text: Email
+      href: "mailto:lliebich@hbs.edu"
+    - icon: google
+      text: Scholar
+      href: "https://scholar.google.com/citations?user=YOUR-SCHOLAR-ID"
+    - icon: github
+      text: GitHub
+      href: "https://github.com/YOUR-GITHUB-USERNAME"
+    - icon: file-earmark-text
+      text: CV
+      href: cv.qmd
+---
+
+I am a Postdoctoral Fellow at the **DEPARTMENT** at **UNIVERSITY**, where I study
+ONE-SENTENCE DESCRIPTION OF YOUR RESEARCH — the question you work on and why it
+matters. Keep this to two or three sentences; visitors decide here whether to
+read further.
+
+My work combines METHOD A and METHOD B to ask how X shapes Y. I am currently
+working on PROJECT THEME, funded by FUNDER.
+
+Before joining UNIVERSITY, I completed my PhD at PHD INSTITUTION under the
+supervision of ADVISOR.
+
+::: {.callout-note appearance="minimal"}
+**Currently:** open to collaborations on TOPIC. Feel free to
+[get in touch](mailto:lliebich@hbs.edu).
+:::
+
+## Research interests
+
+- Interest one
+- Interest two
+- Interest three
+- Interest four
+
+## News
+
+::: {.pub}
+**Sep 2026** · New paper accepted at *JOURNAL NAME*.
+:::
+
+::: {.pub}
+**Jun 2026** · Presented at CONFERENCE, CITY.
+:::
+
+::: {.pub}
+**Mar 2026** · Started as a Postdoctoral Fellow at UNIVERSITY.
+:::

@@ -1,0 +1,85 @@
+---
+title: "Publications"
+subtitle: "Peer-reviewed articles, working papers, and other output"
+---
+
+<!--
+TWO WAYS TO RUN THIS PAGE — pick one.
+
+(A) CURATED (what is set up below). You write each entry by hand. More typing,
+    but you control the ordering and can attach PDF / DOI / code / OSF links
+    per item. This is what most academic sites do.
+
+(B) AUTOMATIC FROM bib/refs.bib. Delete everything below, then add
+        nocite: |
+          @*
+    to this file's YAML header and leave a `::: {#refs}\n:::` block in the body.
+    Every entry in refs.bib is then formatted and listed for you, but they come
+    out as one undivided list without per-item links.
+-->
+
+An up-to-date list is also on
+[Google Scholar](https://scholar.google.com/citations?user=YOUR-SCHOLAR-ID) and
+[ORCID](https://orcid.org/YOUR-ORCID-ID). † denotes equal contribution.
+
+## Peer-reviewed articles
+
+::: {.pub}
+[Title of the article goes here in full]{.pub-title}<br>
+Liebich, L., & Coauthor, A. ([2026]{.pub-year})<br>
+[Journal Name, 12(3), 145–178.]{.pub-venue}
+
+[]{.pub-links}
+[PDF](assets/files/paper2026.pdf){.badge-link}
+[DOI](https://doi.org/10.XXXX/XXXXX){.badge-link}
+[Code](https://github.com/YOUR-GITHUB-USERNAME/repo){.badge-link}
+[Data](https://osf.io/XXXXX){.badge-link}
+:::
+
+::: {.pub}
+[An earlier article with a slightly longer title]{.pub-title}<br>
+Coauthor, B.†, & Liebich, L.† (2025)<br>
+[Another Journal, 8(1), 22–49.]{.pub-venue}
+
+[PDF](assets/files/paper2025.pdf){.badge-link}
+[DOI](https://doi.org/10.XXXX/XXXXX){.badge-link}
+:::
+
+## Working papers & preprints
+
+::: {.pub}
+[Title of the working paper]{.pub-title}<br>
+Liebich, L. (2026)<br>
+[Under review.]{.pub-venue}
+
+[Preprint](https://osf.io/preprints/XXXXX){.badge-link}
+:::
+
+::: {.pub}
+[A second paper in progress]{.pub-title}<br>
+Liebich, L., & Coauthor, C.<br>
+[Manuscript in preparation.]{.pub-venue}
+:::
+
+## Conference presentations
+
+::: {.pub}
+[Talk title]{.pub-title}<br>
+[CONFERENCE NAME, City, June 2026.]{.pub-meta}
+
+[Slides](assets/files/slides2026.pdf){.badge-link}
+:::
+
+::: {.pub}
+[Poster title]{.pub-title}<br>
+[CONFERENCE NAME, City, September 2025.]{.pub-meta}
+:::
+
+## Other writing
+
+::: {.pub}
+[Public-facing piece or book review]{.pub-title}<br>
+[Outlet, March 2026.]{.pub-meta}
+
+[Link](https://example.org){.badge-link}
+:::

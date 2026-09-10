@@ -1,0 +1,158 @@
+/*-- scss:defaults --*/
+
+// ── Palette ──────────────────────────────────────────────────
+$ink:        #1f2328;   // body text
+$ink-soft:   #5c6570;   // secondary text
+$paper:      #fdfdfc;   // page background
+$accent:     #2c5545;   // links & highlights (deep green)
+$accent-dk:  #1c3a2e;
+$rule:       #e6e4df;   // hairlines
+
+$body-bg:     $paper;
+$body-color:  $ink;
+$link-color:  $accent;
+$link-hover-color: $accent-dk;
+
+$font-family-sans-serif: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+$font-family-serif:      "Source Serif 4", Georgia, "Times New Roman", serif;
+
+$font-size-root: 17px;
+$line-height-base: 1.65;
+
+$headings-font-family: $font-family-serif;
+$headings-font-weight: 600;
+$headings-color: $ink;
+
+$navbar-bg: $paper;
+$navbar-fg: $ink-soft;
+
+$toc-color: $ink-soft;
+$grid-body-width: 820px;   // comfortable measure for reading
+
+/*-- scss:rules --*/
+
+body {
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: 0.005em;
+}
+
+// ── Navbar: minimal, hairline rule instead of a filled bar ───
+.navbar {
+  border-bottom: 1px solid $rule;
+  padding-block: 0.4rem;
+
+  .navbar-brand {
+    font-family: $font-family-serif;
+    font-size: 1.15rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    color: $ink;
+  }
+
+  .nav-link {
+    font-size: 0.94rem;
+    letter-spacing: 0.02em;
+    &:hover  { color: $accent !important; }
+    &.active { color: $ink !important; font-weight: 600; }
+  }
+}
+
+// ── Headings ─────────────────────────────────────────────────
+h1, .title {
+  font-size: 2.1rem;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.6rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-top: 2.4rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid $rule;
+}
+
+h3 { font-size: 1.12rem; margin-top: 1.8rem; }
+
+.subtitle {
+  font-family: $font-family-sans-serif;
+  font-size: 1.05rem;
+  color: $ink-soft;
+  font-weight: 400;
+}
+
+// ── Links: understated underline that thickens on hover ──────
+a {
+  text-decoration: none;
+  border-bottom: 1px solid rgba($accent, 0.28);
+  transition: border-color 0.15s ease, color 0.15s ease;
+  &:hover { border-bottom-color: $accent; }
+}
+.navbar a, .nav-link, a.quarto-grid-link, .about-link, footer a:not(:hover) {
+  border-bottom: none;
+}
+
+// ── About / landing block ────────────────────────────────────
+.quarto-about-jolla {
+  .about-image { border-radius: 50%; }
+  .about-links .about-link {
+    color: $ink-soft;
+    border: 1px solid $rule;
+    border-radius: 999px;
+    padding: 0.3rem 0.9rem;
+    margin: 0.2rem;
+    font-size: 0.88rem;
+    &:hover { color: $accent; border-color: $accent; }
+  }
+}
+
+// ── Publication / project entries ────────────────────────────
+.pub {
+  padding: 0.9rem 0 1.1rem;
+  border-bottom: 1px solid $rule;
+  &:last-child { border-bottom: none; }
+
+  .pub-title  { font-weight: 600; }
+  .pub-venue  { color: $ink-soft; font-style: italic; }
+  .pub-meta   { color: $ink-soft; font-size: 0.9rem; }
+}
+
+// Small pill links: [PDF] [DOI] [Code]
+.pub-links a, .badge-link {
+  display: inline-block;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: $ink-soft;
+  border: 1px solid $rule;
+  border-radius: 3px;
+  padding: 0.1rem 0.45rem;
+  margin-right: 0.3rem;
+  &:hover { color: $accent; border-color: $accent; }
+}
+
+// ── CV timeline ──────────────────────────────────────────────
+.cv-entry {
+  display: grid;
+  grid-template-columns: 8.5rem 1fr;
+  gap: 1rem;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid $rule;
+
+  p { margin: 0; }
+  .cv-date { color: $ink-soft; font-size: 0.9rem; padding-top: 0.15rem; }
+  .cv-what strong { display: block; }
+  .cv-what p + p { margin-top: 0.15rem; }
+  .cv-where { color: $ink-soft; }
+}
+
+@media (max-width: 620px) {
+  .cv-entry { grid-template-columns: 1fr; gap: 0.15rem; }
+}
+
+// ── Footer ───────────────────────────────────────────────────
+.nav-footer {
+  border-top: 1px solid $rule;
+  font-size: 0.85rem;
+  color: $ink-soft;
+  margin-top: 3rem;
+}

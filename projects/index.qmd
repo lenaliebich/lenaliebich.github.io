@@ -1,0 +1,18 @@
+---
+title: "Projects"
+subtitle: "Longer-running research projects, datasets, and software"
+listing:
+  contents: "*.qmd"
+  type: default
+  sort: "date desc"
+  fields: [title, description, date, categories]
+  date-format: "MMMM YYYY"
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  feed: false
+---
+
+Each entry below is a project page. Add a new one by copying an existing `.qmd`
+file in `projects/` — it appears in this list automatically, no configuration
+needed.
