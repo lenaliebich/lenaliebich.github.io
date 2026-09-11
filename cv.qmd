@@ -39,7 +39,7 @@ subtitle: "Last updated: September 2026"
 
 :::: {.cv-entry}
 
-[2020 – 2025]{.cv-date}
+[2020 – 2026]{.cv-date}
 
 ::: {.cv-what}
 
@@ -121,7 +121,9 @@ Focus: experimental economics, game theory, contract theory, applied microeconom
 
 ## Research Interests
 
-Human-AI collaboration · household finance · behavioral and experimental economics
+Human-AI interaction, experimental and behavioral economics, organizational economics
+
+
 
 ## Teaching
 
@@ -156,6 +158,20 @@ Two weekly tutorials of up to 25 students.
 ::::
 
 ## Awards, Grants & Fellowships
+
+:::: {.cv-entry}
+
+[2025]{.cv-date}
+
+::: {.cv-what}
+
+**Award for Excellence in Teaching**
+
+[Joint with Kevin Bauer, for the MBA course *Machine Learning for Management Decisions*, Gutenberg School of Business, JGU Mainz]{.cv-where}
+
+:::
+
+::::
 
 :::: {.cv-entry}
 
