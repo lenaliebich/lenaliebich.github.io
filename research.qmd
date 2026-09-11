@@ -1,112 +1,21 @@
 ---
 title: "Research"
-subtitle: "What I work on, and what has come out of it"
 ---
 
-Open with a short framing paragraph: the overarching question that connects your
-work, stated in language a colleague from a neighbouring field would follow.
-Say what puzzle you are chasing, the methods you bring to it, and why the answer
-matters beyond your subfield. Three or four sentences is plenty — this is the
-paragraph a search committee actually reads.
+My research primarily focuses on identifying the conditions under which
+humans can effetively work together with AI systems - delegating tasks between themselves and AI, 
+or providing and consuming AI-assisted advice. 
 
-An up-to-date list is also on
-[Google Scholar](https://scholar.google.com/citations?user=YOUR-SCHOLAR-ID) and
-[ORCID](https://orcid.org/YOUR-ORCID-ID). † denotes equal contribution.
+Motivated by current regulatory demands,  I particularly focus on the implications of providing explanations 
+of an  AI's prediction logic (*explainable AI, XAI*) on the human user's beliefs, (meta-)cognitive processes, trust and decision-making. In a second strand of my research, my co-authors and I 
+test the effectiveness of evidence-based behavioral interventions in motivating debt repayment behavior. 
+
+Across my projects, I design and implement theory-driven incentivized experiments (online, lab-in-the-field or natural field experiments) and large-scale surveys -- often in collaboration
+with industry partners in various sectors (real estate, banking, fintech).
+
 
 ::: {.kw-legend}
-Keywords mark [subject]{.kw-topic} and [methodology]{.kw-method}.
+Keywords mark [topic]{.kw-topic} and [methodology]{.kw-method}.
 :::
 
-## Publications
-
-::: {.pub}
-[Knowing (Not) to Know: Explainable Artificial Intelligence and Human Metacognition]{.pub-title}<br>
-von Zahn, M., [Liebich, L.]{.pub-me}, Jussupow, E., Hinz, O., & Bauer, K.<br>
-[Forthcoming in *Information Systems Research*, published online in Articles in Advance.]{.pub-venue}
-
-[Explainable AI]{.kw-topic} [Human-AI Collaboration]{.kw-topic} [Lab-in-the-field experiment]{.kw-method}
-
-<details class="abstract">
-<summary>Abstract</summary>
-
-The use of explainable artificial intelligence (XAI) to render black-box artificial intelligence (AI) more interpretable to humans is gaining practical relevance. Prior research has shown that XAI can influence how humans “think”. Yet, little is known about whether XAI also affects how people “think about their thinking” (i.e., their metacognitive processes). We address this gap by investigating whether XAI affects metacognitive processes that guide human confidence judgments about their ability to perform a task and thereby, their decision whether to delegate the task to AI. We conducted two incentivized experiments in which domain experts repeatedly performed prediction tasks, with the option to delegate each task to an AI. We exogenously varied whether participants initially received explanations about AI’s overall prediction logic. We find that AI explanations improve how well humans understand their own ability to perform the task (metacognitive accuracy). This improvement causally increases both the frequency and effectiveness of human-to-AI delegation. Additional analyses show that these effects primarily occur when explanations reveal to humans that AI’s prediction logic diverges from their own, leading to a systematic reduction of overconfidence. Our findings highlight metacognitive processes as a central, previously overlooked channel through which AI explanations can influence human-AI collaboration. We discuss practical implications of our results for organizations implementing XAI to comply with regulatory transparency requirements as, for example, outlined in the European Union Artificial Intelligence Act.
-
-</details>
-
-[Paper](https://pubsonline.informs.org/doi/10.1287/isre.2024.1431){.badge-link}
-[DOI](https://doi.org/10.1287/isre.2024.1431){.badge-link}
-:::
-
-::: {.pub}
-[Can GPT Mimic Human Preferences? An Empirical and Structural Investigation]{.pub-title}<br>
-Bauer, K., [Liebich, L.]{.pub-me}, & Kosfeld, M. (2025)<br>
-[*Proceedings of the European Conference on Information Systems (ECIS 2025)*]{.pub-venue}<br>
-[Published 18 June 2025.]{.pub-meta}
-
-[Machine Behavior]{.kw-topic} [LLMs]{.kw-topic} [LLM experiment]{.kw-method}
-
-<details class="abstract">
-<summary>Abstract</summary>
-
-We examine the depth of large language models’ (LLMs) potential to serve as tools for simulating human decision-making processes. Using GPT-4 Turbo in a sequential prisoner’s dilemma, we find significant discrepancies between LLM-generated and human behaviors: GPT consistently exhibits a higher propensity to cooperate and forms overly optimistic expectations of human cooperation, leading to outcomes that diverge from observed human decision-making patterns. Yet, GPT’s decisions do not appear random; they align with a formal model of human preferences for fairness and efficiency that explains the behavior of most human participants in similar settings. We find a striking contrast: while GPT may fall short as accurate surrogate for human decisions at the surface level, the model nonetheless exhibits a capacity to reflect the underlying preferences that drive human behavior in strategic contexts. Our findings have implications for LLMs' potential to serve as a managerial or research tool in simulating human behaviors.
-
-</details>
-
-[Paper](https://aisel.aisnet.org/ecis2025/ai_anthro/ai_anthro/4/){.badge-link}
-:::
-
-## Work in Progress
-
-::: {.pub}
-[Responsive Advisors, Indifferent Clients: Evidence from a Field Experiment on the Role of Explainable AI in Financial Advice (Working Title)]{.pub-title}<br>
-[Liebich, L.]{.pub-me}, Bauer, K., Yang, C., Li, X. & Hinz, O. (2026)<br>
-
-[Explainable AI]{.kw-topic} [Human-AI Collaboration]{.kw-topic} [Lab-in-the-field experiment]{.kw-method}
-
-:::
-
-::: {.pub}
-[Personalized Communication and Repayment (Working Title)]{.pub-title}<br>
-Hett, F., Gill, A., Laudenbach, C., [Liebich, L.]{.pub-me} & Siegel, S. (2026)<br>
-
-[Household Finance]{.kw-topic} [Behavioral Finance]{.kw-topic}  [Field experiment]{.kw-method}
-
-:::
-
-## Policy Papers (Pre-PhD)
-
-::: {.pub}
-[Unconventionally Green: Monetary Policy between Engagement and Conflicting Goals]{.pub-title}<br>
-[Liebich, L.]{.pub-me}, Nöh, L., Rutkowski, F., & Schwarz, M. (2023)<br>
-[*Review of Economics*, 74(1), 53–77.]{.pub-venue}
-
-<!-- Keywords: add your own, e.g.
-[Green Finance]{.kw-topic} [Monetary Policy]{.kw-topic} [Descriptive analysis]{.kw-method}
--->
-
-<!-- ABSTRACT PENDING: publisher page blocked automated retrieval.
-     Paste the official abstract between the <summary> line and </details>. -->
-
-[Paper](https://www.degruyterbrill.com/document/doi/10.1515/roe-2023-0024/html){.badge-link}
-[DOI](https://doi.org/10.1515/roe-2023-0024){.badge-link}
-:::
-
-::: {.pub}
-[Current Developments in Green Finance]{.pub-title}<br>
-[Liebich, L.]{.pub-me}, Nöh, L., Rutkowski, F., & Schwarz, M. (2020)<br>
-[German Council of Economic Experts, Working Paper 05/2020.]{.pub-venue}<br>
-[Not peer reviewed.]{.pub-meta}
-
-<!-- Keywords: add your own, e.g.
-[Green Finance]{.kw-topic} [EU Taxonomy]{.kw-topic}
--->
-
-<details class="abstract">
-<summary>Abstract</summary>
-
-The transformation of economies towards significantly reduced CO2 consumption raises high investment and capital requirements. Financial and capital markets can help to mobilize the necessary funds for global investment needs and to steer capital towards sustainable investments. Moreover, potential disruptive impacts of climate change on the financial system have started to become more apparent recently and require central banks, regulators and supervisors to take a conscious look at the risks and opportunities of climate change for financial intermediaries and markets. This article offers a comprehensive discussion on how green finance has been evolving thus far and explores the opportunities and key developments ahead with particular emphasis on four selected highly topical issues: 1) the introduction of German green government bonds, 2) obstacles to the correct pricing of climate-related risks, 3) the EU taxonomy that has recently been put forward to develop a uniform classification of sustainable economic activities as well as 4) the role of central banks in fostering the transition to a low-carbon economy.
-
-</details>
-
-[Paper](https://www.sachverstaendigenrat-wirtschaft.de/fileadmin/dateiablage/Arbeitspapiere/Arbeitspapier_05_2020.pdf){.badge-link}
-:::
+{{< include _publications.qmd >}}

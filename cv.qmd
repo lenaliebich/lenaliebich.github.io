@@ -125,6 +125,8 @@ Human-AI interaction, experimental and behavioral economics, organizational econ
 
 
 
+{{< include _publications.qmd >}}
+
 ## Teaching
 
 :::: {.cv-entry}
