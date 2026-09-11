@@ -40,7 +40,7 @@ The use of explainable artificial intelligence (XAI) to render black-box artific
 ::: {.pub}
 [Can GPT Mimic Human Preferences? An Empirical and Structural Investigation]{.pub-title}<br>
 Bauer, K., [Liebich, L.]{.pub-me}, & Kosfeld, M. (2025)<br>
-[*Proceedings of the European Conference on Information Systems (ECIS 2025)*, AI Anthropomorphism track, paper 1738.]{.pub-venue}<br>
+[*Proceedings of the European Conference on Information Systems (ECIS 2025)*]{.pub-venue}<br>
 [Published 18 June 2025.]{.pub-meta}
 
 [Machine Behavior]{.kw-topic} [LLMs]{.kw-topic} [LLM experiment]{.kw-method}
@@ -58,23 +58,55 @@ We examine the depth of large language models’ (LLMs) potential to serve as to
 ## Work in Progress
 
 ::: {.pub}
-[Title of the working paper]{.pub-title}<br>
-[Liebich, L.]{.pub-me} (2026)<br>
-[Under review.]{.pub-venue}
+[Responsive Advisors, Indifferent Clients: Evidence from a Field Experiment on the Role of Explainable AI in Financial Advice (Working Title)]{.pub-title}<br>
+[Liebich, L.]{.pub-me}, Bauer, K., Yang, C., Li, X. & Hinz, O. (2026)<br>
 
-[Topic keyword]{.kw-topic} [Method keyword]{.kw-method}
+[Explainable AI]{.kw-topic} [Human-AI Collaboration]{.kw-topic} [Lab-in-the-field experiment]{.kw-method}
 
-[Preprint](https://osf.io/preprints/XXXXX){.badge-link}
+:::
+
+::: {.pub}
+[Personalized Communication and Repayment (Working Title)]{.pub-title}<br>
+Hett, F., Gill, A., Laudenbach, C., [Liebich, L.]{.pub-me} & Siegel, S. (2026)<br>
+
+[Household Finance]{.kw-topic} [Behavioral Finance]{.kw-topic}  [Field experiment]{.kw-method}
+
 :::
 
 ## Policy Papers (Pre-PhD)
 
 ::: {.pub}
-[Title of the policy paper]{.pub-title}<br>
-[Liebich, L.]{.pub-me} (2020)<br>
-[Institution or Series Name, Report No. 14.]{.pub-venue}
+[Unconventionally Green: Monetary Policy between Engagement and Conflicting Goals]{.pub-title}<br>
+[Liebich, L.]{.pub-me}, Nöh, L., Rutkowski, F., & Schwarz, M. (2023)<br>
+[*Review of Economics*, 74(1), 53–77.]{.pub-venue}
 
-[Topic keyword]{.kw-topic}
+<!-- Keywords: add your own, e.g.
+[Green Finance]{.kw-topic} [Monetary Policy]{.kw-topic} [Descriptive analysis]{.kw-method}
+-->
 
-[PDF](assets/files/policy2020.pdf){.badge-link}
+<!-- ABSTRACT PENDING: publisher page blocked automated retrieval.
+     Paste the official abstract between the <summary> line and </details>. -->
+
+[Paper](https://www.degruyterbrill.com/document/doi/10.1515/roe-2023-0024/html){.badge-link}
+[DOI](https://doi.org/10.1515/roe-2023-0024){.badge-link}
+:::
+
+::: {.pub}
+[Current Developments in Green Finance]{.pub-title}<br>
+[Liebich, L.]{.pub-me}, Nöh, L., Rutkowski, F., & Schwarz, M. (2020)<br>
+[German Council of Economic Experts, Working Paper 05/2020.]{.pub-venue}<br>
+[Not peer reviewed.]{.pub-meta}
+
+<!-- Keywords: add your own, e.g.
+[Green Finance]{.kw-topic} [EU Taxonomy]{.kw-topic}
+-->
+
+<details class="abstract">
+<summary>Abstract</summary>
+
+The transformation of economies towards significantly reduced CO2 consumption raises high investment and capital requirements. Financial and capital markets can help to mobilize the necessary funds for global investment needs and to steer capital towards sustainable investments. Moreover, potential disruptive impacts of climate change on the financial system have started to become more apparent recently and require central banks, regulators and supervisors to take a conscious look at the risks and opportunities of climate change for financial intermediaries and markets. This article offers a comprehensive discussion on how green finance has been evolving thus far and explores the opportunities and key developments ahead with particular emphasis on four selected highly topical issues: 1) the introduction of German green government bonds, 2) obstacles to the correct pricing of climate-related risks, 3) the EU taxonomy that has recently been put forward to develop a uniform classification of sustainable economic activities as well as 4) the role of central banks in fostering the transition to a low-carbon economy.
+
+</details>
+
+[Paper](https://www.sachverstaendigenrat-wirtschaft.de/fileadmin/dateiablage/Arbeitspapiere/Arbeitspapier_05_2020.pdf){.badge-link}
 :::
