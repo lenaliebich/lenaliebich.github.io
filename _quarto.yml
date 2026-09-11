@@ -29,9 +29,10 @@ website:
       - icon: envelope
         href: "mailto:lliebich@hbs.edu"
         aria-label: Email
-      - icon: google
-        href: "https://scholar.google.com/citations?user=YOUR-SCHOLAR-ID"
-        aria-label: Google Scholar
+      # Uncomment once you have your Scholar ID (currently a dead link):
+      # - icon: google
+      #   href: "https://scholar.google.com/citations?user=YOUR-SCHOLAR-ID"
+      #   aria-label: Google Scholar
 
   page-footer:
     border: false

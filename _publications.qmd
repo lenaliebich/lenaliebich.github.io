@@ -40,7 +40,7 @@ We examine the depth of large language models’ (LLMs) potential to serve as to
 
 ::: {.pub}
 [Responsive Advisors, Indifferent Clients: Evidence from a Field Experiment on the Role of Explainable AI in Financial Advice (Working Title)]{.pub-title}<br>
-[Liebich, L.]{.pub-me}, Bauer, K., Yang, C., Li, X. & Hinz, O. (2026)<br>
+[Liebich, L.]{.pub-me}, Bauer, K., Yang, C., Li, X. & Hinz, O. (2026)
 
 [Explainable AI]{.kw-topic} [Human-AI Collaboration]{.kw-topic} [Lab-in-the-field experiment]{.kw-method}
 
@@ -48,7 +48,7 @@ We examine the depth of large language models’ (LLMs) potential to serve as to
 
 ::: {.pub}
 [Personalized Communication and Repayment (Working Title)]{.pub-title}<br>
-Hett, F., Gill, A., Laudenbach, C., [Liebich, L.]{.pub-me} & Siegel, S. (2026)<br>
+Hett, F., Gill, A., Laudenbach, C., [Liebich, L.]{.pub-me} & Siegel, S. (2026)
 
 [Household Finance]{.kw-topic} [Behavioral Finance]{.kw-topic}  [Field experiment]{.kw-method}
 
@@ -74,7 +74,7 @@ We study the potential role of the ECB in supporting the transition to a low-car
 ::: {.pub}
 [Current Developments in Green Finance]{.pub-title}<br>
 [Liebich, L.]{.pub-me}, Nöh, L., Rutkowski, F., & Schwarz, M. (2020)<br>
-[German Council of Economic Experts, Working Paper 05/2020.]{.pub-venue}<br>
+[German Council of Economic Experts, Working Paper 05/2020.]{.pub-venue}
 
 
 <details class="abstract">
@@ -86,7 +86,7 @@ necessary funds for global investment needs and to steer capital towards sustain
 Moreover, potential disruptive impacts of climate change on the financial system have started to
 become more apparent recently and require central banks, regulators and supervisors to take a
 conscious look at the risks and opportunities of climate change for financial intermediaries and
-markets. This article oﬀers a comprehensive discussion on how green finance has been evolving
+markets. This article offers a comprehensive discussion on how green finance has been evolving
 thus far and explores the opportunities and key developments ahead with particular emphasis
 on four selected highly topical issues: 1) the introduction of German green government bonds,
 2) obstacles to the correct pricing of climate-related risks, 3) the EU taxonomy that has recently

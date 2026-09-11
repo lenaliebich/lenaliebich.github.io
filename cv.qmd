@@ -3,7 +3,9 @@ title: "Curriculum Vitae"
 subtitle: "Last updated: September 2026"
 ---
 
+<!-- Dead link until the file exists. Put the PDF at assets/cv/Liebich-CV.pdf, then uncomment:
 [Download full CV (PDF)](assets/cv/Liebich-CV.pdf){.badge-link}
+-->
 
 ## Academic Appointments
 
