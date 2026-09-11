@@ -13,7 +13,7 @@ project:
 website:
   title: "Lena Liebich"
   description: "Postdoctoral Fellow at the Harvard Business School AI Institute"
-  site-url: "https://YOUR-GITHUB-USERNAME.github.io"
+  site-url: "https://lenaliebich.github.io"
   open-graph: true
 
   navbar:
@@ -32,9 +32,6 @@ website:
       - icon: google
         href: "https://scholar.google.com/citations?user=YOUR-SCHOLAR-ID"
         aria-label: Google Scholar
-      - icon: github
-        href: "https://github.com/YOUR-GITHUB-USERNAME"
-        aria-label: GitHub
 
   page-footer:
     border: false

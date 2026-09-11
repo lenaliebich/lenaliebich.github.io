@@ -24,7 +24,7 @@ Keywords mark [subject]{.kw-topic} and [methodology]{.kw-method}.
 von Zahn, M., [Liebich, L.]{.pub-me}, Jussupow, E., Hinz, O., & Bauer, K.<br>
 [Forthcoming in *Information Systems Research*, published online in Articles in Advance.]{.pub-venue}
 
-[Explainable AI]{.kw-topic} [Human-AI Collaboration]{.kw-topic} [Lab-in-the-field]{.kw-method}
+[Explainable AI]{.kw-topic} [Human-AI Collaboration]{.kw-topic} [Lab-in-the-field experiment]{.kw-method}
 
 <details class="abstract">
 <summary>Abstract</summary>
@@ -43,12 +43,12 @@ Bauer, K., [Liebich, L.]{.pub-me}, & Kosfeld, M. (2025)<br>
 [*Proceedings of the European Conference on Information Systems (ECIS 2025)*, AI Anthropomorphism track, paper 1738.]{.pub-venue}<br>
 [Published 18 June 2025.]{.pub-meta}
 
-[Machine Behavior]{.kw-topic} [LLMs]{.kw-topic} [LLM Experiment]{.kw-method}
+[Machine Behavior]{.kw-topic} [LLMs]{.kw-topic} [LLM experiment]{.kw-method}
 
 <details class="abstract">
 <summary>Abstract</summary>
 
-We examine the depth of large language models' (LLMs) potential to serve as tools for simulating human decision-making processes. Using GPT-4 Turbo in a sequential prisoner's dilemma, we find significant discrepancies between LLM-generated and human behaviors: GPT consistently exhibits a higher propensity to cooperate and forms overly optimistic expectations of human cooperation, leading to outcomes that diverge from observed human decision-making patterns. Yet, GPT's decisions do not appear random; they align with a formal model of human preferences for fairness and efficiency that explains the behavior of most human participants in similar settings. We find a striking contrast: while GPT may fall short as accurate surrogate for human decisions at the surface level, the model nonetheless exhibits a capacity to reflect the underlying preferences that drive human behavior in strategic contexts. Our findings have implications for LLM's potential to serve as a managerial or research tool in simulating human behaviors.
+We examine the depth of large language models’ (LLMs) potential to serve as tools for simulating human decision-making processes. Using GPT-4 Turbo in a sequential prisoner’s dilemma, we find significant discrepancies between LLM-generated and human behaviors: GPT consistently exhibits a higher propensity to cooperate and forms overly optimistic expectations of human cooperation, leading to outcomes that diverge from observed human decision-making patterns. Yet, GPT’s decisions do not appear random; they align with a formal model of human preferences for fairness and efficiency that explains the behavior of most human participants in similar settings. We find a striking contrast: while GPT may fall short as accurate surrogate for human decisions at the surface level, the model nonetheless exhibits a capacity to reflect the underlying preferences that drive human behavior in strategic contexts. Our findings have implications for LLMs' potential to serve as a managerial or research tool in simulating human behaviors.
 
 </details>
 
