@@ -15,8 +15,9 @@ PORT   = os.environ.get("PREVIEW_PORT", "4200")
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
 NAME   = "LENA LIEBICH"
-LINE1  = "Digital Reskilling Lab, Harvard Business School AI Institute"
-LINE2  = 'lliebich@hbs.edu &nbsp;|&nbsp; lenaliebich.github.io'
+INST   = "HARVARD BUSINESS SCHOOL AI INSTITUTE, DIGITAL RESKILLING LAB"
+ADDR   = "Cotting House 300, Boston, MA 02163"
+CONTACT= "lliebich@hbs.edu &middot; lenaliebich.github.io"
 
 PRINT_CSS = """
 <style>
@@ -35,8 +36,9 @@ PRINT_CSS = """
 
   /* Doumi-style masthead */
   .cvpdf-head { text-align: center; margin: 0 0 14pt; }
-  .cvpdf-head .n { font-size: 16pt; font-weight: 600; letter-spacing: .06em; }
-  .cvpdf-head .a { font-size: 9.4pt; margin-top: 3pt; }
+  .cvpdf-head .n { font-size: 16pt; font-weight: 600; letter-spacing: .08em; }
+  .cvpdf-head .i { font-size: 9.6pt; letter-spacing: .05em; margin-top: 4pt; }
+  .cvpdf-head .d { font-size: 9.4pt; margin-top: 2pt; }
   .cvpdf-head .c { font-size: 9.4pt; margin-top: 2pt; }
   .cvpdf-stamp { text-align: right; font-size: 8pt; color: #444; margin-bottom: 6pt; }
 
@@ -92,9 +94,16 @@ def main():
     # Abstracts must be open or the browser will not print them
     html = html.replace('<details class="abstract">', '<details class="abstract" open>')
 
+    # A "download this PDF" button has no place inside the PDF itself
+    html = re.sub(r'<p>\s*<a[^>]*Liebich-CV\.pdf[^>]*>.*?</a>\s*</p>', '', html, flags=re.S)
+
     head = (f'<div class="cvpdf-stamp">Last updated: September 2026</div>'
-            f'<div class="cvpdf-head"><div class="n">{NAME}</div>'
-            f'<div class="a">{LINE1}</div><div class="c">{LINE2}</div></div>')
+            f'<div class="cvpdf-head">'
+            f'<div class="n">{NAME}</div>'
+            f'<div class="i">{INST}</div>'
+            f'<div class="d">{ADDR}</div>'
+            f'<div class="c">{CONTACT}</div>'
+            f'</div>')
     html = html.replace("</head>", PRINT_CSS + "</head>", 1)
     html = re.sub(r'(<main[^>]*>)', r'\1' + head, html, count=1)
 
