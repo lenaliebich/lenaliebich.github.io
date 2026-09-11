@@ -10,12 +10,12 @@ Motivated by current regulatory demands,  I particularly focus on the implicatio
 of an  AI's prediction logic (*explainable AI, XAI*) on the human user's beliefs, (meta-)cognitive processes, trust and decision-making. In a second strand of my research, my co-authors and I 
 test the effectiveness of evidence-based behavioral interventions in motivating debt repayment behavior. 
 
-Across my projects, I design and implement theory-driven incentivized experiments (online, lab-in-the-field or natural field experiments) and large-scale surveys -- often in collaboration
+Across my projects, I design and implement theory-driven and incentivized behavioral experiments (online, lab-in-the-field or natural field experiments) and large-scale surveys -- often in collaboration
 with industry partners in various sectors (real estate, banking, fintech).
 
 
 ::: {.kw-legend}
-Keywords mark [topic]{.kw-topic} and [methodology]{.kw-method}.
+Keywords mark [topic]{.kw-topic} and [methodology]{.kw-method}
 :::
 
 {{< include _publications.qmd >}}

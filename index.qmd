@@ -1,6 +1,6 @@
 ---
 title: "Lena Liebich"
-subtitle: "Postdoctoral Fellow · Harvard Business School AI Institute"
+subtitle: "Postdoctoral Fellow, Harvard Business School AI Institute"
 pagetitle: "Lena Liebich"
 about:
   template: trestles

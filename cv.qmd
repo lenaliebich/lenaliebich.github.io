@@ -211,7 +211,9 @@ Human-AI interaction, experimental and behavioral economics, organizational econ
 
 ::: {.cv-what}
 
-4th Workshop on Behavioral, Digital and Financial Economics, JGU Mainz (presentation) · Digital Economy Workshop (presentation) · SAFE Brown Bag Seminar (presentation)
+- 4th Workshop on Behavioral, Digital and Financial Economics, JGU Mainz (presentation)
+- Digital Economy Workshop (presentation)
+- SAFE Brown Bag Seminar (presentation)
 
 :::
 
@@ -223,7 +225,12 @@ Human-AI interaction, experimental and behavioral economics, organizational econ
 
 ::: {.cv-what}
 
-SAFE Junior Scholars Workshop: The New World of Corporate Boards (presentation) · 3rd Workshop on Behavioral, Digital and Financial Economics, JGU Mainz (presentation) · University of Oxford, Faculty of Law (presentation) · 9th SAFE Household Finance Workshop (discussion) · CUHK Business School (presentation) · 38th Australasian Finance and Banking Conference, UNSW Business School (presentation)
+- SAFE Junior Scholars Workshop: The New World of Corporate Boards (presentation)
+- 3rd Workshop on Behavioral, Digital and Financial Economics, JGU Mainz (presentation)
+- University of Oxford, Faculty of Law (presentation)
+- 9th SAFE Household Finance Workshop (discussion)
+- CUHK Business School (presentation)
+- 38th Australasian Finance and Banking Conference, UNSW Business School (presentation)
 
 :::
 
@@ -235,7 +242,12 @@ SAFE Junior Scholars Workshop: The New World of Corporate Boards (presentation) 
 
 ::: {.cv-what}
 
-2nd Workshop on Behavioral, Digital and Financial Economics, JGU Mainz (presentation) · SAFE Brown Bag Seminar (presentation) · 9th Spring School in Behavioral Economics, UCSD Rady School of Management (poster) · Machine+Behavior Conference, MPI / Toulouse School of Economics / University of British Columbia (poster) · 8th SAFE Household Finance Workshop (discussion) · EconTribute Workshop on Human-AI Collaboration, University of Cologne (lightning talk)
+- 2nd Workshop on Behavioral, Digital and Financial Economics, JGU Mainz (presentation)
+- SAFE Brown Bag Seminar (presentation)
+- 9th Spring School in Behavioral Economics, UCSD Rady School of Management (poster)
+- Machine+Behavior Conference, MPI / Toulouse School of Economics / University of British Columbia (poster)
+- 8th SAFE Household Finance Workshop (discussion)
+- EconTribute Workshop on Human-AI Collaboration, University of Cologne (lightning talk)
 
 :::
 
@@ -247,7 +259,15 @@ SAFE Junior Scholars Workshop: The New World of Corporate Boards (presentation) 
 
 ::: {.cv-what}
 
-1st Workshop on Behavioral, Digital and Financial Economics, JGU Mainz (presentation) · PhD course *Subjective Beliefs, Attention and Economic Behavior*, University of Copenhagen (poster) · 1st Bonn-Frankfurt-Mannheim PhD Conference (presentation) · Workshop on Interactions of Humans and Algorithms, TU Berlin (poster) · SAFE Brown Bag Seminar (presentation) · Society for Experimental Finance Summer School, University of Sofia · 7th SAFE Household Finance Workshop (presentation) · CORA Conference on Robots and Automation, Goethe University (presentation) · ZEW / University of Mannheim Experimental Seminar (presentation)
+- 1st Workshop on Behavioral, Digital and Financial Economics, JGU Mainz (presentation)
+- PhD course *Subjective Beliefs, Attention and Economic Behavior*, University of Copenhagen (poster)
+- 1st Bonn-Frankfurt-Mannheim PhD Conference (presentation)
+- Workshop on Interactions of Humans and Algorithms, TU Berlin (poster)
+- SAFE Brown Bag Seminar (presentation)
+- Society for Experimental Finance Summer School, University of Sofia
+- 7th SAFE Household Finance Workshop (presentation)
+- CORA Conference on Robots and Automation, Goethe University (presentation)
+- ZEW / University of Mannheim Experimental Seminar (presentation)
 
 :::
 
@@ -315,9 +335,10 @@ SAFE Junior Scholars Workshop: The New World of Corporate Boards (presentation) 
 
 ::: {.cv-what}
 
-**Organizing Committee, 1st Bonn-Frankfurt-Mannheim PhD Conference**
+- **Organizing Committee, 1st Bonn-Frankfurt-Mannheim PhD Conference**
 
-[Goethe University Frankfurt · Keynote by Ulrike Malmendier]{.cv-where}
+[Goethe University Frankfurt
+- Keynote by Ulrike Malmendier]{.cv-where}
 
 :::
 
@@ -479,15 +500,48 @@ Organisational change management concept for a large logistics firm; data analys
 
 ## Affiliations
 
-Harvard Business School AI Institute · Leibniz Institute for Financial Research SAFE (Research Affiliate) · Behavioural Finance e.V. (Member) · Mentoring Hessen, ProCareer.Doc Program (2024 cohort)
+- Harvard Business School AI Institute
+- Leibniz Institute for Financial Research SAFE (Research Affiliate)
+- Behavioural Finance e.V. (Member)
+- Mentoring Hessen, ProCareer.Doc Program (2024 cohort)
 
 ## Personal
 
-**Software** · Stata, Python, LaTeX, Git, oTree, MS Office
+:::: {.cv-entry}
 
-**Languages** · German (native), English (fluent), Spanish (fluent)
+[Software]{.cv-date}
 
-**Citizenship** · German
+::: {.cv-what}
+
+Stata, Python, LaTeX, Git, oTree, MS Office
+
+:::
+
+::::
+
+:::: {.cv-entry}
+
+[Languages]{.cv-date}
+
+::: {.cv-what}
+
+German (native), English (fluent), Spanish (fluent)
+
+:::
+
+::::
+
+:::: {.cv-entry}
+
+[Citizenship]{.cv-date}
+
+::: {.cv-what}
+
+German
+
+:::
+
+::::
 
 ## References
 

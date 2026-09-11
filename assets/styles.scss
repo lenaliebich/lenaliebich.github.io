@@ -21,11 +21,13 @@ $body-color:  $ink;
 $link-color:  $accent;
 $link-hover-color: $accent-dk;
 
-$font-family-sans-serif: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-$font-family-serif:      "Source Serif 4", Georgia, "Times New Roman", serif;
+// Serif sets the reading text; the sans is reserved for interface chrome
+// (navbar, dates, tags, buttons) so the two never compete in a paragraph.
+$font-family-sans-serif: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+$font-family-serif:      "Spectral", Georgia, "Times New Roman", serif;
 
 $font-size-root: 17px;
-$line-height-base: 1.65;
+$line-height-base: 1.62;
 
 $headings-font-family: $font-family-serif;
 $headings-font-weight: 600;
@@ -41,7 +43,15 @@ $grid-body-width: 820px;   // comfortable measure for reading
 
 body {
   -webkit-font-smoothing: antialiased;
-  letter-spacing: 0.005em;
+  font-family: $font-family-serif;
+  letter-spacing: 0;
+}
+
+// Interface chrome stays in the sans face
+.navbar, .nav-footer, .cv-date, .pub-meta, .subtitle, .kw-legend,
+.badge-link, .kw-topic, .kw-method, details.abstract > summary,
+.quarto-about-jolla .about-links .about-link, .about-link {
+  font-family: $font-family-sans-serif;
 }
 
 // ── Navbar: deep teal band ───────────────────────────────────
@@ -125,7 +135,7 @@ a {
   .about-links .about-link {
     color: $ink-soft;
     border: 1px solid $rule;
-    border-radius: 999px;
+    border-radius: 2px;
     padding: 0.3rem 0.9rem;
     margin: 0.2rem;
     font-size: 0.88rem;
@@ -150,11 +160,12 @@ a {
 // ── Keyword pills: topic (teal, solid) vs methodology (amber, dashed) ──
 .kw-topic, .kw-method {
   display: inline-block;
-  font-size: 0.78rem;
-  letter-spacing: 0.01em;
-  border-radius: 999px;
-  padding: 0.12rem 0.62rem;
-  margin: 0.15rem 0.25rem 0.15rem 0;
+  font-size: 0.74rem;
+  font-weight: 500;
+  letter-spacing: 0.015em;
+  border-radius: 2px;
+  padding: 0.1rem 0.45rem;
+  margin: 0.15rem 0.3rem 0.15rem 0;
 }
 
 .kw-topic {
@@ -169,11 +180,13 @@ a {
   border: 1px dashed rgba($method, 0.6);
 }
 
-// Legend explaining the two pill types
+// Legend explaining the two tag types
 .kw-legend {
-  font-size: 0.84rem;
+  font-size: 0.82rem;
   color: $ink-soft;
-  margin: 0.8rem 0 0;
+  margin: 1.1rem 0 0;
+
+  .kw-topic, .kw-method { margin-right: 0.15rem; }
 }
 
 // ── Collapsible abstract ─────────────────────────────────────
@@ -226,6 +239,13 @@ details.abstract {
   &:hover { color: $accent; border-color: $accent; }
 }
 
+// ── Lists: tight, with quiet markers ─────────────────────────
+ul {
+  padding-left: 1.15rem;
+  li { margin-bottom: 0.2rem; }
+  li::marker { color: $ink-soft; font-size: 0.85em; }
+}
+
 // ── CV timeline ──────────────────────────────────────────────
 .cv-entry {
   display: grid;
@@ -235,7 +255,8 @@ details.abstract {
   border-bottom: 1px solid $rule;
 
   p { margin: 0; }
-  .cv-date { color: $ink-soft; font-size: 0.9rem; padding-top: 0.15rem; }
+  ul { margin: 0; padding-left: 1.05rem; }
+  .cv-date { color: $ink-soft; font-size: 0.86rem; letter-spacing: 0.02em; padding-top: 0.2rem; }
   .cv-what strong { display: block; }
   .cv-what p + p { margin-top: 0.15rem; }
   .cv-where { color: $ink-soft; }
