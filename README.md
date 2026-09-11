@@ -38,3 +38,15 @@ GitHub Pages rebuilds within a minute or two.
 | `assets/cv/` | CV PDF |
 | `assets/files/` | Paper PDFs, slides, posters |
 | `docs/` | Rendered output — committed, served by GitHub Pages |
+
+## Regenerating the CV PDF
+
+The PDF at `assets/cv/Liebich-CV.pdf` is generated from the rendered CV page,
+so it always matches the website. With `quarto preview` running:
+
+```bash
+quarto render
+python3 tools/make-cv-pdf.py
+```
+
+Requires Google Chrome. Set `PREVIEW_PORT` if the preview is not on 4200.

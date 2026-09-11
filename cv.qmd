@@ -3,9 +3,7 @@ title: "Curriculum Vitae"
 subtitle: "Last updated: September 2026"
 ---
 
-<!-- Dead link until the file exists. Put the PDF at assets/cv/Liebich-CV.pdf, then uncomment:
-[Download full CV (PDF)](assets/cv/Liebich-CV.pdf){.badge-link}
--->
+[Download CV (PDF)](assets/cv/Liebich-CV.pdf){.badge-link}
 
 ## Academic Appointments
 
@@ -335,10 +333,9 @@ Human-AI interaction, experimental and behavioral economics, organizational econ
 
 ::: {.cv-what}
 
-- **Organizing Committee, 1st Bonn-Frankfurt-Mannheim PhD Conference**
+**Organizing Committee, 1st Bonn-Frankfurt-Mannheim PhD Conference**
 
-[Goethe University Frankfurt
-- Keynote by Ulrike Malmendier]{.cv-where}
+[Keynote by Ulrike Malmendier, Goethe University Frankfurt, Germany.]{.cv-where}
 
 :::
 
