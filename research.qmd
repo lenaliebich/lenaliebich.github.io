@@ -34,7 +34,7 @@ The use of explainable artificial intelligence (XAI) to render black-box artific
 
 </details>
 
-[Article](https://pubsonline.informs.org/doi/10.1287/isre.2024.1431){.badge-link}
+[Paper](https://pubsonline.informs.org/doi/10.1287/isre.2024.1431){.badge-link}
 [DOI](https://doi.org/10.1287/isre.2024.1431){.badge-link}
 :::
 
@@ -44,7 +44,7 @@ Bauer, K., [Liebich, L.]{.pub-me}, & Kosfeld, M. (2025)<br>
 [*Proceedings of the European Conference on Information Systems (ECIS 2025)*, AI Anthropomorphism track, paper 1738.]{.pub-venue}<br>
 [Published 18 June 2025.]{.pub-meta}
 
-[Machine Behavior]{.kw-topic} [LLMs]{.kw-topic}
+[Machine Behavior]{.kw-topic} [LLMs]{.kw-topic} [LLM Experiment]{.kw-method}
 
 <details class="abstract">
 <summary>Abstract</summary>
