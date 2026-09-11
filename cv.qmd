@@ -397,7 +397,7 @@ Research on market-based indicators of climate systemic risk.
 
 [European Central Bank, DG Macroprudential Policy and Financial Stability, Frankfurt am Main, Germany]{.cv-where}
 
-Division: Systemic Risk and Financial Institutions. Empirical analysis of euro-area banks' exposure to climate-related systemic risk following the CRISK methodology of Jung, Berner and Engle.
+Empirical analysis of euro-area banks' exposure to climate-related systemic risk following the CRISK methodology of Jung, Berner and Engle.
 
 :::
 

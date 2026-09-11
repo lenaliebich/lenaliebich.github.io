@@ -2,7 +2,7 @@
 
 ::: {.pub}
 [Knowing (Not) to Know: Explainable Artificial Intelligence and Human Metacognition]{.pub-title}<br>
-von Zahn, M., [Liebich, L.]{.pub-me}, Jussupow, E., Hinz, O., & Bauer, K.<br>
+von Zahn, M., [Liebich, L.]{.pub-me}, Jussupow, E., Hinz, O., & Bauer, K. (2025)<br>
 [Forthcoming in *Information Systems Research*, published online in Articles in Advance.]{.pub-venue}
 
 [Explainable AI]{.kw-topic} [Human-AI Collaboration]{.kw-topic} [Lab-in-the-field experiment]{.kw-method}

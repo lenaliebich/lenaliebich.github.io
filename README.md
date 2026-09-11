@@ -49,4 +49,5 @@ quarto render
 python3 tools/make-cv-pdf.py
 ```
 
-Requires Google Chrome. Set `PREVIEW_PORT` if the preview is not on 4200.
+Requires Google Chrome and `pypdf` (`pip3 install --user pypdf`).
+Set `PREVIEW_PORT` if the preview is not on 4200.
