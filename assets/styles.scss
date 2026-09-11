@@ -6,7 +6,14 @@ $ink-soft:   #5c6570;   // secondary text
 $paper:      #fdfdfc;   // page background
 $accent:     #0f766e;   // links & highlights (teal)
 $accent-dk:  #0a544e;
-$accent-tint:#e6f2f1;   // soft teal wash for keyword pills
+$accent-tint:#e6f2f1;   // soft teal wash for topic keywords
+
+// Second keyword hue for methodology. Teal/amber stays distinguishable under
+// deuteranopia and protanopia, and the solid-vs-dashed border repeats the
+// distinction so it never rests on hue alone.
+$method:     #b45309;
+$method-dk:  #8a3f07;
+$method-tint:#fdf0e2;
 $rule:       #e6e4df;   // hairlines
 
 $body-bg:     $paper;
@@ -120,16 +127,70 @@ a {
   .pub-meta   { color: $ink-soft; font-size: 0.9rem; }
 }
 
-// Keywords: soft teal wash, no border — visually distinct from action links
-.pub-keywords {
+// ── Keyword pills: topic (teal, solid) vs methodology (amber, dashed) ──
+.kw-topic, .kw-method {
   display: inline-block;
-  font-size: 0.82rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.01em;
+  border-radius: 999px;
+  padding: 0.12rem 0.62rem;
+  margin: 0.15rem 0.25rem 0.15rem 0;
+}
+
+.kw-topic {
   color: $accent-dk;
   background: $accent-tint;
-  border-radius: 3px;
-  padding: 0.15rem 0.5rem;
-  margin-bottom: 0.15rem;
+  border: 1px solid rgba($accent, 0.38);
 }
+
+.kw-method {
+  color: $method-dk;
+  background: $method-tint;
+  border: 1px dashed rgba($method, 0.6);
+}
+
+// Legend explaining the two pill types
+.kw-legend {
+  font-size: 0.84rem;
+  color: $ink-soft;
+  margin: 0.8rem 0 0;
+}
+
+// ── Collapsible abstract ─────────────────────────────────────
+details.abstract {
+  margin: 0.45rem 0 0.55rem;
+
+  > summary {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.78rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: $ink-soft;
+    border: 1px solid $rule;
+    border-radius: 3px;
+    padding: 0.1rem 0.45rem;
+    list-style: none;
+    &::-webkit-details-marker { display: none; }
+    &::after { content: " \25be"; }
+    &:hover { color: $accent; border-color: $accent; }
+    &:focus-visible { outline: 2px solid $accent; outline-offset: 2px; }
+  }
+
+  &[open] > summary::after { content: " \25b4"; }
+
+  > p {
+    font-size: 0.92rem;
+    line-height: 1.6;
+    color: $ink-soft;
+    margin: 0.6rem 0 0;
+    padding-left: 0.9rem;
+    border-left: 2px solid $rule;
+  }
+}
+
+// Author's own name in a reference
+.pub-me { font-weight: 600; color: $ink; }
 
 // Small pill links: [PDF] [DOI]
 .pub-links a, .badge-link {

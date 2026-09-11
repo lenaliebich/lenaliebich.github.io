@@ -45,7 +45,7 @@ subtitle: "Last updated: September 2026"
 
 **PhD in Economics, *summa cum laude***
 
-[Graduate School of Economics, Finance and Management (GSEFM), Goethe University Frankfurt]{.cv-where}
+[Graduate School of Economics, Finance and Management (GSEFM), Goethe University Frankfurt, Germany]{.cv-where}
 
 Dissertation: *Essays on Human-AI Interaction and Household Finance*
 
@@ -95,7 +95,7 @@ Two-month research stay at the invitation of Jenny Jin.
 
 **MSc in Quantitative Economics**
 
-[Graduate School of Economics, Finance and Management (GSEFM), Goethe University Frankfurt]{.cv-where}
+[Graduate School of Economics, Finance and Management (GSEFM), Goethe University Frankfurt, Germany]{.cv-where}
 
 Focus: applied econometrics, household finance, experimental finance.
 
@@ -151,17 +151,15 @@ Human-AI interaction, experimental and behavioral economics, organizational econ
 
 [BSc Economics course with Isabel Schnabel, University of Bonn]{.cv-where}
 
-Two weekly tutorials of up to 25 students.
-
 :::
 
 ::::
 
-## Awards, Grants & Fellowships
+## Awards & Scholarships
 
 :::: {.cv-entry}
 
-[2025]{.cv-date}
+[2026]{.cv-date}
 
 ::: {.cv-what}
 
@@ -201,7 +199,7 @@ Two weekly tutorials of up to 25 students.
 
 ::::
 
-## Invited Talks & Presentations
+## Conferences, Seminars and Invited Talks
 
 :::: {.cv-entry}
 
@@ -267,7 +265,7 @@ SAFE Junior Scholars Workshop: The New World of Corporate Boards (presentation) 
 
 :::: {.cv-entry}
 
-[2022 – 2025]{.cv-date}
+[2022 – 2026]{.cv-date}
 
 ::: {.cv-what}
 
