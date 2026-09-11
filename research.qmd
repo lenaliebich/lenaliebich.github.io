@@ -3,7 +3,7 @@ title: "Research"
 ---
 
 My research primarily focuses on identifying the conditions under which
-humans can effetively work together with AI systems - delegating tasks between themselves and AI, 
+humans can effectively work together with AI systems - delegating tasks between themselves and AI, 
 or providing and consuming AI-assisted advice. 
 
 Motivated by current regulatory demands,  I particularly focus on the implications of providing explanations 
