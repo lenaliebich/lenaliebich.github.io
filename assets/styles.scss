@@ -31,8 +31,8 @@ $headings-font-family: $font-family-serif;
 $headings-font-weight: 600;
 $headings-color: $ink;
 
-$navbar-bg: $paper;
-$navbar-fg: $ink-soft;
+$navbar-bg: $accent-dk;
+$navbar-fg: rgba(255, 255, 255, 0.82);
 
 $toc-color: $ink-soft;
 $grid-body-width: 820px;   // comfortable measure for reading
@@ -44,25 +44,33 @@ body {
   letter-spacing: 0.005em;
 }
 
-// ── Navbar: minimal, hairline rule instead of a filled bar ───
+// ── Navbar: deep teal band ───────────────────────────────────
 .navbar {
-  border-bottom: 1px solid $rule;
-  padding-block: 0.4rem;
+  border-bottom: none;
+  padding-block: 0.55rem;
 
   .navbar-brand {
     font-family: $font-family-serif;
-    font-size: 1.15rem;
+    font-size: 1.18rem;
     font-weight: 600;
     letter-spacing: 0.01em;
-    color: $ink;
+    color: #fff;
+    &:hover { color: #fff; }
   }
 
   .nav-link {
     font-size: 0.94rem;
     letter-spacing: 0.02em;
-    &:hover  { color: $accent !important; }
-    &.active { color: $ink !important; font-weight: 600; }
+    color: rgba(255, 255, 255, 0.82) !important;
+    padding-bottom: 0.35rem;
+    border-bottom: 2px solid transparent;
+
+    &:hover  { color: #fff !important; border-bottom-color: rgba(255, 255, 255, 0.45); }
+    &.active { color: #fff !important; font-weight: 600; border-bottom-color: #fff; }
   }
+
+  // Hamburger outline on small screens
+  .navbar-toggler { border-color: rgba(255, 255, 255, 0.35); }
 }
 
 // ── Headings ─────────────────────────────────────────────────
@@ -77,6 +85,18 @@ h2 {
   margin-top: 2.4rem;
   padding-bottom: 0.35rem;
   border-bottom: 1px solid $rule;
+  position: relative;
+
+  // Short teal tab picking up the navbar colour
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 2.6rem;
+    height: 2px;
+    background: $accent;
+  }
 }
 
 h3 { font-size: 1.12rem; margin-top: 1.8rem; }
@@ -227,7 +247,7 @@ details.abstract {
 
 // ── Footer ───────────────────────────────────────────────────
 .nav-footer {
-  border-top: 1px solid $rule;
+  border-top: 2px solid $accent-dk;
   font-size: 0.85rem;
   color: $ink-soft;
   margin-top: 3rem;

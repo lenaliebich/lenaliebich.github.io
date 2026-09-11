@@ -483,7 +483,7 @@ Harvard Business School AI Institute · Leibniz Institute for Financial Research
 
 ## Personal
 
-**Software** · Stata, Python, LaTeX, oTree, MS Office
+**Software** · Stata, Python, LaTeX, Git, oTree, MS Office
 
 **Languages** · German (native), English (fluent), Spanish (fluent)
 
