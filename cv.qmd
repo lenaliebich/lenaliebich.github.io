@@ -377,9 +377,7 @@ Leibniz Institute for Financial Research SAFE
 
 ::: {.cv-what}
 
-**Leibniz Institute for Financial Research SAFE**
-
-Supervision of Master's and Bachelor's theses, Department of Household Finance
+Supervision of Master's and Bachelor's theses (Leibniz Institute for Financial Research SAFE)
 
 :::
 
@@ -395,9 +393,7 @@ Supervision of Master's and Bachelor's theses, Department of Household Finance
 
 ::: {.cv-what}
 
-**Leibniz Institute for Financial Research SAFE**
-
-Representative of PhD Researchers
+Representative of PhD Researchers (Leibniz Institute for Financial Research SAFE)
 
 :::
 
@@ -413,9 +409,7 @@ Representative of PhD Researchers
 
 ::: {.cv-what}
 
-**Graduate School of Economics, Finance and Management (GSEFM)**
-
-Member of Student Representatives
+Member of Student Representatives (GSEFM, Goethe University Frankfurt)
 
 :::
 
@@ -431,11 +425,7 @@ Member of Student Representatives
 
 ::: {.cv-what}
 
-**Goethe University Frankfurt**
-
-Organizing Committee, 1st Bonn-Frankfurt-Mannheim PhD Conference
-
-Keynote by Ulrike Malmendier.
+Organizing Committee, 1st Bonn-Frankfurt-Mannheim PhD Conference with keynote by Ulrike Malmendier (Goethe University Frankfurt)
 
 :::
 
@@ -451,9 +441,9 @@ Keynote by Ulrike Malmendier.
 
 ::: {.cv-what}
 
-**European Conference on Information Systems (ECIS)**
+**Referee**
 
-Referee
+- European Conference on Information Systems (ECIS)
 
 :::
 

@@ -137,6 +137,13 @@ def main():
         sys.exit("docs/cv.html not found - run `quarto render` first.")
     html = open(SRC, encoding="utf-8").read()
 
+    # Policy work is listed in the PDF, but its abstracts are left out
+    pol = re.search(r'<section id="policy-work-pre-phd" class="level2">.*?'
+                    r'(?=<section id="[^"]+" class="level2">|</main>)', html, flags=re.S)
+    if pol:
+        trimmed = re.sub(r'<details class="abstract">.*?</details>', "", pol.group(0), flags=re.S)
+        html = html[:pol.start()] + trimmed + html[pol.end():]
+
     # Abstracts must be open or the browser will not print them
     html = html.replace('<details class="abstract">', '<details class="abstract" open>')
     # A "download this PDF" button has no place inside the PDF itself
