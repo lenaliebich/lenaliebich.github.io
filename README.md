@@ -42,7 +42,7 @@ GitHub Pages rebuilds within a minute or two.
 ## Regenerating the CV PDF
 
 The PDF at `assets/cv/Liebich-CV.pdf` is generated from the rendered CV page,
-so it always matches the website. With `quarto preview` running:
+so it always matches the website:
 
 ```bash
 quarto render
@@ -50,4 +50,5 @@ python3 tools/make-cv-pdf.py
 ```
 
 Requires Google Chrome and `pypdf` (`pip3 install --user pypdf`).
-Set `PREVIEW_PORT` if the preview is not on 4200.
+The script serves `docs/` itself, so `quarto preview` does not need to be
+running, and it also updates the published copy in `docs/assets/cv/`.

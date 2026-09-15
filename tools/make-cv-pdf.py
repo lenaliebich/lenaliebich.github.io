@@ -7,16 +7,18 @@ page counters, and Paged.js does not finish laying out before headless
 Chrome snapshots the page.
 
 Run `quarto render` first, then:  python3 tools/make-cv-pdf.py
-Requires Google Chrome, pypdf, and a running `quarto preview` (port 4200).
+Requires Google Chrome and pypdf. The page is served by a throwaway local
+server on docs/, not by `quarto preview`, which can hand back a stale copy.
+The PDF is written to assets/cv/ and mirrored into docs/assets/cv/.
 """
-import os, re, subprocess, sys, tempfile, urllib.request
+import functools, http.server, os, re, shutil, subprocess, sys, tempfile, threading, urllib.request
 
 ROOT    = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC     = os.path.join(ROOT, "docs", "cv.html")
 TMP     = os.path.join(ROOT, "docs", "_cvprint.html")
 TMPOVL  = os.path.join(ROOT, "docs", "_cvnums.html")
 OUT     = os.path.join(ROOT, "assets", "cv", "Liebich-CV.pdf")
-PORT    = os.environ.get("PREVIEW_PORT", "4200")
+DOCSOUT = os.path.join(ROOT, "docs", "assets", "cv", "Liebich-CV.pdf")
 CHROME  = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
 NAME    = "LENA LIEBICH"
@@ -118,6 +120,21 @@ def chrome_pdf(url, out, budget=15000):
                     f"--virtual-time-budget={budget}", f"--print-to-pdf={out}", url],
                    check=True, capture_output=True, timeout=240)
 
+class NoCacheHandler(http.server.SimpleHTTPRequestHandler):
+    def end_headers(self):
+        self.send_header("Cache-Control", "no-store")
+        super().end_headers()
+
+    def log_message(self, *args):
+        pass
+
+def serve_docs():
+    # Our own server on a free port, so every run prints the files just written
+    handler = functools.partial(NoCacheHandler, directory=os.path.join(ROOT, "docs"))
+    server = http.server.ThreadingHTTPServer(("127.0.0.1", 0), handler)
+    threading.Thread(target=server.serve_forever, daemon=True).start()
+    return server, f"http://127.0.0.1:{server.server_address[1]}"
+
 def overlay_html(n):
     rows = "\n".join(
         f'<div class="pg"><span>Page {i} of {n}</span></div>' for i in range(1, n + 1))
@@ -157,18 +174,19 @@ def main():
     html = re.sub(r"(<main[^>]*>)", r"\1" + head, html, count=1)
     open(TMP, "w", encoding="utf-8").write(html)
 
+    server, base_url = serve_docs()
     try:
         from pypdf import PdfReader, PdfWriter
         base_path = os.path.join(tempfile.gettempdir(), "_cv_base.pdf")
         ovl_path = os.path.join(tempfile.gettempdir(), "_cv_ovl.pdf")
 
-        url = f"http://127.0.0.1:{PORT}/_cvprint.html"
+        url = f"{base_url}/_cvprint.html"
         urllib.request.urlopen(url, timeout=10).read()
         chrome_pdf(url, base_path)
 
         n = len(PdfReader(base_path).pages)
         open(TMPOVL, "w", encoding="utf-8").write(overlay_html(n))
-        ovl_url = f"http://127.0.0.1:{PORT}/_cvnums.html"
+        ovl_url = f"{base_url}/_cvnums.html"
         urllib.request.urlopen(ovl_url, timeout=10).read()
         chrome_pdf(ovl_url, ovl_path)
 
@@ -196,8 +214,12 @@ def main():
         os.makedirs(os.path.dirname(OUT), exist_ok=True)
         with open(OUT, "wb") as fh:
             writer.write(fh)
-        print(f"wrote {OUT} ({os.path.getsize(OUT)//1024} KB, {n} pages)")
+        # quarto render copied the old PDF into docs/; keep the published copy in step
+        os.makedirs(os.path.dirname(DOCSOUT), exist_ok=True)
+        shutil.copyfile(OUT, DOCSOUT)
+        print(f"wrote {OUT} ({os.path.getsize(OUT)//1024} KB, {n} pages) and docs/ copy")
     finally:
+        server.shutdown()
         if not os.environ.get("KEEP_TMP"):
             for f in (TMP, TMPOVL):
                 if os.path.exists(f):

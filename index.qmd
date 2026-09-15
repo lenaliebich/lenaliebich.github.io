@@ -20,25 +20,24 @@ about:
 ---
 
 I am a **Postdoctoral Fellow in the Digital Reskilling Lab at the Harvard
-Business School AI Institute** and a Research Affiliate of the Leibniz Institute
-for Financial Research SAFE. Before joining HBS, I completed my **PhD in Economics**
+Business School AI Institute** and a **Research Affiliate** of the **Leibniz Institute
+for Financial Research SAFE**. Before joining HBS, I completed my **PhD in Economics**
 at the Graduate School of Economics, Finance and Management at **Goethe University
 Frankfurt**, supervised by Christine Laudenbach and Michael Kosfeld. 
 
-During my PhD, I visited the Department of Decisions, Operations and Technology at CUHK Business School, Hong Kong, and the Centre for Brain, Mind and Markets at the University of Melbourne.
+During my PhD, I **visited** the Department of Decisions, Operations and Technology at **CUHK Business School, Hong Kong**, 
+and the **Centre for Brain, Mind and Markets at the University of Melbourne**.
 
-Artificial intelligence (AI) promises gains in organizational efficiency and decision-making, but raises profound questions about transparency and the evolving role of human workers. 
+Bridging the gap between Economics and Information Systems, I primarily investigate how humans can effectively collaborate with AI systems 
+to improve decision quality in organizations undergoing technological change. 
+I particularly focus on the role of design features of the AI, such as providing explanations 
+of its prediction logic (explainable AI), in shaping users' beliefs, thought processes and behavior. 
 
-**My research asks: How can AI systems be implemented
-responsibly to complement — rather than replace — human judgment and expertise?**
+In a second strand of my research, my co-authors and I design a natural field experiment to test the effectiveness of evidence-based behavioral interventions in 
+motivating debt repayment behavior.
 
-In particular, I study how algorithmic design features, such as **explainable AI (XAI)**,
-shape human beliefs, (meta-)cognition, trust and decision-making across different
-stakeholder groups.
+Across my projects, I apply a behavioral lens designing and conducting a variety of incentivized behavioral experiments (online, lab-in-the-field, field) 
+and large-scale surveys - often in collaboration with industry partners across sectors (e.g. real estate, banking, fintech).
 
-I approach these questions from a **behavioral, micro-level perspective**,
-combining **theory-driven incentivized experiments** (online, lab-in-the-field,
-field) with **large-scale surveys**, often in **collaboration with industry partners** in
-real estate, banking, or fintech. 
 
-A separate strand of work examines the potential of evidence-based behavioral interventions to motivate debt repayment.
+

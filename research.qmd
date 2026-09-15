@@ -2,17 +2,7 @@
 title: "Research"
 ---
 
-My research primarily focuses on identifying the conditions under which
-humans can effectively work together with AI systems - delegating tasks between themselves and AI, 
-or providing and consuming AI-assisted advice. 
-
-Motivated by current regulatory demands,  I particularly focus on the implications of providing explanations 
-of an  AI's prediction logic (*explainable AI, XAI*) on the human user's beliefs, (meta-)cognitive processes, trust and decision-making. In a second strand of my research, my co-authors and I 
-test the effectiveness of evidence-based behavioral interventions in motivating debt repayment behavior. 
-
-Across my projects, I design and implement theory-driven and incentivized behavioral experiments (online, lab-in-the-field or natural field experiments) and large-scale surveys -- often in collaboration
-with industry partners in various sectors (real estate, banking, fintech).
-
+Please find my publications and work in progress below.
 
 ::: {.kw-legend}
 Keywords mark [topic]{.kw-topic} and [methodology]{.kw-method}

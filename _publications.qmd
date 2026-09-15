@@ -2,7 +2,7 @@
 
 ::: {.pub}
 [Knowing (Not) to Know: Explainable Artificial Intelligence and Human Metacognition]{.pub-title}<br>
-von Zahn, M., [Liebich, L.]{.pub-me}, Jussupow, E., Hinz, O., & Bauer, K. (2025)<br>
+with Moritz von Zahn, Ekaterina Jussupow, Oliver Hinz and Kevin Bauer (2025)<br>
 [Forthcoming in *Information Systems Research*, published online in Articles in Advance.]{.pub-venue}
 
 [Explainable AI]{.kw-topic} [Human-AI Collaboration]{.kw-topic} [Lab-in-the-field experiment]{.kw-method}
@@ -20,11 +20,11 @@ The use of explainable artificial intelligence (XAI) to render black-box artific
 
 ::: {.pub}
 [Can GPT Mimic Human Preferences? An Empirical and Structural Investigation]{.pub-title}<br>
-Bauer, K., [Liebich, L.]{.pub-me}, & Kosfeld, M. (2025)<br>
+with Kevin Bauer and Michael Kosfeld (2025)<br>
 [*Proceedings of the European Conference on Information Systems (ECIS 2025)*]{.pub-venue}<br>
 
 
-[Machine Behavior]{.kw-topic} [LLMs]{.kw-topic} [LLM experiment]{.kw-method}
+[Machine Behavior]{.kw-topic} [LLMs in Research]{.kw-topic} [LLM experiment]{.kw-method}
 
 <details class="abstract">
 <summary>Abstract</summary>
@@ -40,7 +40,7 @@ We examine the depth of large language models’ (LLMs) potential to serve as to
 
 ::: {.pub}
 [Responsive Advisors, Indifferent Clients: Evidence from a Field Experiment on the Role of Explainable AI in Financial Advice (Working Title)]{.pub-title}<br>
-[Liebich, L.]{.pub-me}, Bauer, K., Yang, C., Li, X. & Hinz, O. (2026)
+First-authored, with Kevin Bauer, Cathy Yang, Xitong Li and Oliver Hinz (2026)
 
 [Explainable AI]{.kw-topic} [Human-AI Collaboration]{.kw-topic} [Lab-in-the-field experiment]{.kw-method}
 
@@ -48,7 +48,7 @@ We examine the depth of large language models’ (LLMs) potential to serve as to
 
 ::: {.pub}
 [Personalized Communication and Repayment (Working Title)]{.pub-title}<br>
-Hett, F., Gill, A., Laudenbach, C., [Liebich, L.]{.pub-me} & Siegel, S. (2026)
+with Florian Hett, Andrej Gill, Christine Laudenbach and Stephan Siegel (2026)
 
 [Household Finance]{.kw-topic} [Behavioral Finance]{.kw-topic}  [Field experiment]{.kw-method}
 
@@ -58,7 +58,7 @@ Hett, F., Gill, A., Laudenbach, C., [Liebich, L.]{.pub-me} & Siegel, S. (2026)
 
 ::: {.pub}
 [Unconventionally Green: Monetary Policy between Engagement and Conflicting Goals]{.pub-title}<br>
-[Liebich, L.]{.pub-me}, Nöh, L., Rutkowski, F., & Schwarz, M. (2023)<br>
+with Lukas Nöh, Felix Rutkowski and Milena Schwarz (2023)<br>
 [*Review of Economics*, 74(1), 53–77.]{.pub-venue}
 
 <details class="abstract">
@@ -73,7 +73,7 @@ We study the potential role of the ECB in supporting the transition to a low-car
 
 ::: {.pub}
 [Current Developments in Green Finance]{.pub-title}<br>
-[Liebich, L.]{.pub-me}, Nöh, L., Rutkowski, F., & Schwarz, M. (2020)<br>
+with Lukas Nöh, Felix Rutkowski and Milena Schwarz (2020)<br>
 [German Council of Economic Experts, Working Paper 05/2020.]{.pub-venue}
 
 

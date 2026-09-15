@@ -49,7 +49,7 @@ Research Affiliate
 
 ## Research Interests
 
-Human-AI interaction, experimental and behavioral economics, organizational economics
+Human-AI collaboration, Technology adoption, Behavioral economics
 
 {{< include _publications.qmd >}}
 
@@ -65,7 +65,7 @@ PhD in Economics, *summa cum laude*
 
 Dissertation: *Essays on Human-AI Interaction and Household Finance*
 
-Committee: Christine Laudenbach, Michael Kosfeld, Guido Friebel, Florian Hett
+Committee: Christine Laudenbach (first supervisor), Michael Kosfeld (second supervisor), Guido Friebel, Florian Hett
 
 :::
 
@@ -87,7 +87,7 @@ Committee: Christine Laudenbach, Michael Kosfeld, Guido Friebel, Florian Hett
 
 Visiting Scholar, Centre for Brain, Mind and Markets
 
-Two-month research stay at the invitation of Carsten Murawski.
+Two-month research stay hosted by Carsten Murawski
 
 :::
 
@@ -109,7 +109,7 @@ Two-month research stay at the invitation of Carsten Murawski.
 
 Visiting Scholar, Department of Decisions, Operations and Technology
 
-Two-month research stay at the invitation of Jenny Jin.
+Two-month research stay hosted by Jenny (Qianran) Jin
 
 :::
 
@@ -131,7 +131,7 @@ Two-month research stay at the invitation of Jenny Jin.
 
 MSc in Quantitative Economics
 
-Focus: applied econometrics, household finance, experimental finance.
+Electives: Applied Econometrics, Household Finance, Experimental Finance 
 
 :::
 
@@ -153,7 +153,7 @@ Focus: applied econometrics, household finance, experimental finance.
 
 BSc in Economics
 
-Focus: experimental economics, game theory, contract theory, applied microeconometrics.
+Electives: Experimental Economics, Game Theory, Contract Theory, Applied Microeconometrics
 
 :::
 
@@ -177,7 +177,7 @@ Focus: experimental economics, game theory, contract theory, applied microeconom
 
 Teaching Assistant, *Machine Learning for Management Decisions*
 
-MBA course with Kevin Bauer.
+MBA course held by Kevin Bauer
 
 :::
 
@@ -199,7 +199,7 @@ MBA course with Kevin Bauer.
 
 Teaching Assistant, *Financial Markets and Institutions*
 
-BSc Economics course with Isabel Schnabel.
+BSc Economics held by Isabel Schnabel
 
 :::
 
@@ -228,6 +228,24 @@ Joint with Kevin Bauer, for the MBA course *Machine Learning for Management Deci
 ::: {.cv-meta}
 
 [2026]{.cv-date}
+
+:::
+
+::::
+
+:::: {.cv-entry}
+
+::: {.cv-what}
+
+**SAFE Young Researcher Travel Grant**
+
+Fully-funded research visits to CUHK Business School and the University of Melbourne
+
+:::
+
+::: {.cv-meta}
+
+[2025]{.cv-date}
 
 :::
 
@@ -487,8 +505,6 @@ Junior Researcher / Doctoral Student, Department of Household Finance
 
 Academic Researcher, DG Macroprudential Policy and Financial Stability
 
-Research on market-based indicators of climate systemic risk.
-
 :::
 
 ::: {.cv-meta}
@@ -509,7 +525,6 @@ Research on market-based indicators of climate systemic risk.
 
 Trainee, DG Macroprudential Policy and Financial Stability
 
-Empirical analysis of euro-area banks' exposure to climate-related systemic risk following the CRISK methodology of Jung, Berner and Engle.
 
 :::
 
@@ -531,8 +546,6 @@ Empirical analysis of euro-area banks' exposure to climate-related systemic risk
 
 Student Research Assistant
 
-Data analysis and literature search supporting the faculty's research projects.
-
 :::
 
 ::: {.cv-meta}
@@ -552,8 +565,6 @@ Data analysis and literature search supporting the faculty's research projects.
 **German Council of Economic Experts (GCEE)**
 
 Research Intern, Scientific Staff
-
-Empirical analysis of the carbon intensity of the ECB's bond purchases under the Corporate Sector Purchase Programme, contributing to GCEE working papers 05/2020 and 05/2021.
 
 :::
 
@@ -575,9 +586,9 @@ Empirical analysis of the carbon intensity of the ECB's bond purchases under the
 
 **Consulting, media and language tutoring**
 
-- Consulting Assistant and Consulting Intern, CPC Unternehmensmanagement AG, Bonn & Frankfurt am Main
-- Student Assistant, Editorial Office *Documentaries*, phoenix / ZDF, Bonn
-- German Language Tutor, German School Abroad Bilbao, Spain
+- Consulting Intern and Assistant (organizational change management), CPC Unternehmensmanagement AG, Bonn & Frankfurt am Main, Germany
+- Student Assistant, Editorial Office *Documentaries*, phoenix / ZDF, Bonn, Germany
+- German Language Tutor (Gap Year), Bilbao, Spain
 
 :::
 
