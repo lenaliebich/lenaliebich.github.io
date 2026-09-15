@@ -9,111 +9,39 @@ subtitle: "Last updated: September 2026"
 
 :::: {.cv-entry}
 
+::: {.cv-what}
+
+**Harvard Business School AI Institute**
+
+Postdoctoral Fellow, Digital Reskilling Lab
+
+:::
+
+::: {.cv-meta}
+
+[Boston, MA]{.cv-loc}
+
 [2026 – present]{.cv-date}
 
-::: {.cv-what}
-
-**Postdoctoral Fellow, Digital Reskilling Lab**
-
-[Harvard Business School AI Institute, Boston, MA]{.cv-where}
-
 :::
 
 ::::
 
 :::: {.cv-entry}
+
+::: {.cv-what}
+
+**Leibniz Institute for Financial Research SAFE**
+
+Research Affiliate
+
+:::
+
+::: {.cv-meta}
+
+[Frankfurt am Main, Germany]{.cv-loc}
 
 [2026 – present]{.cv-date}
-
-::: {.cv-what}
-
-**Research Affiliate**
-
-[Leibniz Institute for Financial Research SAFE, Frankfurt am Main, Germany]{.cv-where}
-
-:::
-
-::::
-
-## Education
-
-:::: {.cv-entry}
-
-[2020 – 2026]{.cv-date}
-
-::: {.cv-what}
-
-**PhD in Economics, *summa cum laude***
-
-[Graduate School of Economics, Finance and Management (GSEFM), Goethe University Frankfurt, Germany]{.cv-where}
-
-Dissertation: *Essays on Human-AI Interaction and Household Finance*
-
-Committee: Christine Laudenbach, Michael Kosfeld, Guido Friebel, Florian Hett
-
-:::
-
-::::
-
-:::: {.cv-entry}
-
-[2025 – 2026]{.cv-date}
-
-::: {.cv-what}
-
-**Visiting Scholar**
-
-[Centre for Brain, Mind and Markets, University of Melbourne, Australia]{.cv-where}
-
-Two-month research stay at the invitation of Carsten Murawski.
-
-:::
-
-::::
-
-:::: {.cv-entry}
-
-[2025]{.cv-date}
-
-::: {.cv-what}
-
-**Visiting Scholar**
-
-[Department of Decisions, Operations and Technology, CUHK Business School, Hong Kong SAR]{.cv-where}
-
-Two-month research stay at the invitation of Jenny Jin.
-
-:::
-
-::::
-
-:::: {.cv-entry}
-
-[2020 – 2025]{.cv-date}
-
-::: {.cv-what}
-
-**MSc in Quantitative Economics**
-
-[Graduate School of Economics, Finance and Management (GSEFM), Goethe University Frankfurt, Germany]{.cv-where}
-
-Focus: applied econometrics, household finance, experimental finance.
-
-:::
-
-::::
-
-:::: {.cv-entry}
-
-[2016 – 2020]{.cv-date}
-
-::: {.cv-what}
-
-**BSc in Economics**
-
-[University of Bonn, Germany]{.cv-where}
-
-Focus: experimental economics, game theory, contract theory, applied microeconometrics.
 
 :::
 
@@ -123,21 +51,29 @@ Focus: experimental economics, game theory, contract theory, applied microeconom
 
 Human-AI interaction, experimental and behavioral economics, organizational economics
 
-
-
 {{< include _publications.qmd >}}
 
-## Teaching
+## Education
 
 :::: {.cv-entry}
 
-[2025]{.cv-date}
-
 ::: {.cv-what}
 
-**Teaching Assistant, *Machine Learning for Management Decisions***
+**Goethe University Frankfurt (GSEFM)**
 
-[MBA course with Kevin Bauer, Gutenberg School of Business, JGU Mainz]{.cv-where}
+PhD in Economics, *summa cum laude*
+
+Dissertation: *Essays on Human-AI Interaction and Household Finance*
+
+Committee: Christine Laudenbach, Michael Kosfeld, Guido Friebel, Florian Hett
+
+:::
+
+::: {.cv-meta}
+
+[Frankfurt am Main, Germany]{.cv-loc}
+
+[2020 – 2026]{.cv-date}
 
 :::
 
@@ -145,13 +81,133 @@ Human-AI interaction, experimental and behavioral economics, organizational econ
 
 :::: {.cv-entry}
 
-[2019]{.cv-date}
+::: {.cv-what}
+
+**University of Melbourne**
+
+Visiting Scholar, Centre for Brain, Mind and Markets
+
+Two-month research stay at the invitation of Carsten Murawski.
+
+:::
+
+::: {.cv-meta}
+
+[Melbourne, Australia]{.cv-loc}
+
+[2025 – 2026]{.cv-date}
+
+:::
+
+::::
+
+:::: {.cv-entry}
 
 ::: {.cv-what}
 
-**Teaching Assistant, *Financial Markets and Institutions***
+**CUHK Business School**
 
-[BSc Economics course with Isabel Schnabel, University of Bonn]{.cv-where}
+Visiting Scholar, Department of Decisions, Operations and Technology
+
+Two-month research stay at the invitation of Jenny Jin.
+
+:::
+
+::: {.cv-meta}
+
+[Hong Kong SAR]{.cv-loc}
+
+[2025]{.cv-date}
+
+:::
+
+::::
+
+:::: {.cv-entry}
+
+::: {.cv-what}
+
+**Goethe University Frankfurt (GSEFM)**
+
+MSc in Quantitative Economics
+
+Focus: applied econometrics, household finance, experimental finance.
+
+:::
+
+::: {.cv-meta}
+
+[Frankfurt am Main, Germany]{.cv-loc}
+
+[2020 – 2025]{.cv-date}
+
+:::
+
+::::
+
+:::: {.cv-entry}
+
+::: {.cv-what}
+
+**University of Bonn**
+
+BSc in Economics
+
+Focus: experimental economics, game theory, contract theory, applied microeconometrics.
+
+:::
+
+::: {.cv-meta}
+
+[Bonn, Germany]{.cv-loc}
+
+[2016 – 2020]{.cv-date}
+
+:::
+
+::::
+
+## Teaching
+
+:::: {.cv-entry}
+
+::: {.cv-what}
+
+**Gutenberg School of Business, JGU Mainz**
+
+Teaching Assistant, *Machine Learning for Management Decisions*
+
+MBA course with Kevin Bauer.
+
+:::
+
+::: {.cv-meta}
+
+[Mainz, Germany]{.cv-loc}
+
+[2025]{.cv-date}
+
+:::
+
+::::
+
+:::: {.cv-entry}
+
+::: {.cv-what}
+
+**University of Bonn**
+
+Teaching Assistant, *Financial Markets and Institutions*
+
+BSc Economics course with Isabel Schnabel.
+
+:::
+
+::: {.cv-meta}
+
+[Bonn, Germany]{.cv-loc}
+
+[2019]{.cv-date}
 
 :::
 
@@ -161,27 +217,35 @@ Human-AI interaction, experimental and behavioral economics, organizational econ
 
 :::: {.cv-entry}
 
-[2026]{.cv-date}
-
 ::: {.cv-what}
 
 **Award for Excellence in Teaching**
 
-[Joint with Kevin Bauer, for the MBA course *Machine Learning for Management Decisions*, Gutenberg School of Business, JGU Mainz]{.cv-where}
+Joint with Kevin Bauer, for the MBA course *Machine Learning for Management Decisions*, Gutenberg School of Business, JGU Mainz
+
+:::
+
+::: {.cv-meta}
+
+[2026]{.cv-date}
 
 :::
 
 ::::
 
 :::: {.cv-entry}
-
-[2025]{.cv-date}
 
 ::: {.cv-what}
 
 **Best Discussion Award**
 
-[9th SAFE Household Finance Workshop, sponsored by Behavioural Finance e.V. (€1,000)]{.cv-where}
+9th SAFE Household Finance Workshop, sponsored by Behavioural Finance e.V. (€1,000)
+
+:::
+
+::: {.cv-meta}
+
+[2025]{.cv-date}
 
 :::
 
@@ -189,13 +253,17 @@ Human-AI interaction, experimental and behavioral economics, organizational econ
 
 :::: {.cv-entry}
 
-[2020 – 2021]{.cv-date}
-
 ::: {.cv-what}
 
 **First-Year PhD Scholarship**
 
-[Leibniz Institute for Financial Research SAFE]{.cv-where}
+Leibniz Institute for Financial Research SAFE
+
+:::
+
+::: {.cv-meta}
+
+[2020 – 2021]{.cv-date}
 
 :::
 
@@ -205,8 +273,6 @@ Human-AI interaction, experimental and behavioral economics, organizational econ
 
 :::: {.cv-entry}
 
-[2026]{.cv-date}
-
 ::: {.cv-what}
 
 - 4th Workshop on Behavioral, Digital and Financial Economics, JGU Mainz (presentation)
@@ -215,11 +281,15 @@ Human-AI interaction, experimental and behavioral economics, organizational econ
 
 :::
 
+::: {.cv-meta}
+
+[2026]{.cv-date}
+
+:::
+
 ::::
 
 :::: {.cv-entry}
-
-[2025]{.cv-date}
 
 ::: {.cv-what}
 
@@ -232,11 +302,15 @@ Human-AI interaction, experimental and behavioral economics, organizational econ
 
 :::
 
+::: {.cv-meta}
+
+[2025]{.cv-date}
+
+:::
+
 ::::
 
 :::: {.cv-entry}
-
-[2024]{.cv-date}
 
 ::: {.cv-what}
 
@@ -249,11 +323,15 @@ Human-AI interaction, experimental and behavioral economics, organizational econ
 
 :::
 
+::: {.cv-meta}
+
+[2024]{.cv-date}
+
+:::
+
 ::::
 
 :::: {.cv-entry}
-
-[2023]{.cv-date}
 
 ::: {.cv-what}
 
@@ -269,15 +347,25 @@ Human-AI interaction, experimental and behavioral economics, organizational econ
 
 :::
 
+::: {.cv-meta}
+
+[2023]{.cv-date}
+
+:::
+
 ::::
 
 :::: {.cv-entry}
 
-[2022]{.cv-date}
-
 ::: {.cv-what}
 
-6th SAFE Household Finance Workshop (discussion)
+- 6th SAFE Household Finance Workshop (discussion)
+
+:::
+
+::: {.cv-meta}
+
+[2022]{.cv-date}
 
 :::
 
@@ -287,69 +375,91 @@ Human-AI interaction, experimental and behavioral economics, organizational econ
 
 :::: {.cv-entry}
 
-[2022 – 2026]{.cv-date}
-
 ::: {.cv-what}
 
-**Supervision of Master's and Bachelor's theses**
+**Leibniz Institute for Financial Research SAFE**
 
-[Department of Household Finance, Leibniz Institute for Financial Research SAFE]{.cv-where}
+Supervision of Master's and Bachelor's theses, Department of Household Finance
+
+:::
+
+::: {.cv-meta}
+
+[2022 – 2026]{.cv-date}
 
 :::
 
 ::::
 
 :::: {.cv-entry}
+
+::: {.cv-what}
+
+**Leibniz Institute for Financial Research SAFE**
+
+Representative of PhD Researchers
+
+:::
+
+::: {.cv-meta}
 
 [2022 – 2024]{.cv-date}
 
-::: {.cv-what}
-
-**Representative of PhD Researchers**
-
-[Leibniz Institute for Financial Research SAFE]{.cv-where}
-
 :::
 
 ::::
 
 :::: {.cv-entry}
+
+::: {.cv-what}
+
+**Graduate School of Economics, Finance and Management (GSEFM)**
+
+Member of Student Representatives
+
+:::
+
+::: {.cv-meta}
 
 [2020 – 2024]{.cv-date}
 
-::: {.cv-what}
-
-**Member of Student Representatives**
-
-[Graduate School of Economics, Finance and Management (GSEFM)]{.cv-where}
-
 :::
 
 ::::
 
 :::: {.cv-entry}
+
+::: {.cv-what}
+
+**Goethe University Frankfurt**
+
+Organizing Committee, 1st Bonn-Frankfurt-Mannheim PhD Conference
+
+Keynote by Ulrike Malmendier.
+
+:::
+
+::: {.cv-meta}
 
 [2023]{.cv-date}
 
-::: {.cv-what}
-
-**Organizing Committee, 1st Bonn-Frankfurt-Mannheim PhD Conference**
-
-[Keynote by Ulrike Malmendier, Goethe University Frankfurt, Germany.]{.cv-where}
-
 :::
 
 ::::
 
 :::: {.cv-entry}
 
-[2025]{.cv-date}
-
 ::: {.cv-what}
 
-**Referee**
+**European Conference on Information Systems (ECIS)**
 
-[European Conference on Information Systems (ECIS)]{.cv-where}
+Referee
+
+:::
+
+::: {.cv-meta}
+
+[2025]{.cv-date}
 
 :::
 
@@ -357,15 +467,23 @@ Human-AI interaction, experimental and behavioral economics, organizational econ
 
 ## Professional Experience
 
-:::: {.cv-entry}
+### Academic
 
-[2022 – 2025]{.cv-date}
+:::: {.cv-entry}
 
 ::: {.cv-what}
 
-**Junior Researcher / Doctoral Student**
+**Leibniz Institute for Financial Research SAFE**
 
-[Department of Household Finance, Leibniz Institute for Financial Research SAFE, Frankfurt am Main, Germany]{.cv-where}
+Junior Researcher / Doctoral Student, Department of Household Finance
+
+:::
+
+::: {.cv-meta}
+
+[Frankfurt am Main, Germany]{.cv-loc}
+
+[2022 – 2025]{.cv-date}
 
 :::
 
@@ -373,123 +491,109 @@ Human-AI interaction, experimental and behavioral economics, organizational econ
 
 :::: {.cv-entry}
 
-[2022 – 2023]{.cv-date}
-
 ::: {.cv-what}
 
-**Academic Researcher**
+**European Central Bank**
 
-[European Central Bank, DG Macroprudential Policy and Financial Stability, Frankfurt am Main, Germany]{.cv-where}
+Academic Researcher, DG Macroprudential Policy and Financial Stability
 
 Research on market-based indicators of climate systemic risk.
 
 :::
 
+::: {.cv-meta}
+
+[Frankfurt am Main, Germany]{.cv-loc}
+
+[2022 – 2023]{.cv-date}
+
+:::
+
 ::::
 
 :::: {.cv-entry}
 
-[2022]{.cv-date}
-
 ::: {.cv-what}
 
-**Trainee**
+**European Central Bank**
 
-[European Central Bank, DG Macroprudential Policy and Financial Stability, Frankfurt am Main, Germany]{.cv-where}
+Trainee, DG Macroprudential Policy and Financial Stability
 
 Empirical analysis of euro-area banks' exposure to climate-related systemic risk following the CRISK methodology of Jung, Berner and Engle.
 
 :::
 
+::: {.cv-meta}
+
+[Frankfurt am Main, Germany]{.cv-loc}
+
+[2022]{.cv-date}
+
+:::
+
 ::::
 
 :::: {.cv-entry}
 
-[2021 – 2022]{.cv-date}
-
 ::: {.cv-what}
 
-**Student Research Assistant**
+**Leibniz Institute for Financial Research SAFE**
 
-[Leibniz Institute for Financial Research SAFE, Frankfurt am Main, Germany]{.cv-where}
+Student Research Assistant
 
 Data analysis and literature search supporting the faculty's research projects.
 
 :::
 
+::: {.cv-meta}
+
+[Frankfurt am Main, Germany]{.cv-loc}
+
+[2021 – 2022]{.cv-date}
+
+:::
+
 ::::
 
 :::: {.cv-entry}
 
-[2020]{.cv-date}
-
 ::: {.cv-what}
 
-**Research Intern**
+**German Council of Economic Experts (GCEE)**
 
-[Scientific Staff of the German Council of Economic Experts (GCEE), Wiesbaden, Germany]{.cv-where}
+Research Intern, Scientific Staff
 
 Empirical analysis of the carbon intensity of the ECB's bond purchases under the Corporate Sector Purchase Programme, contributing to GCEE working papers 05/2020 and 05/2021.
 
 :::
 
-::::
+::: {.cv-meta}
 
-:::: {.cv-entry}
+[Wiesbaden, Germany]{.cv-loc}
 
-[2019 – 2020]{.cv-date}
-
-::: {.cv-what}
-
-**Consulting Assistant**
-
-[CPC Unternehmensmanagement AG, Bonn & Frankfurt am Main, Germany]{.cv-where}
-
-Conceptual framework for blended-learning experiences in HR applications.
+[2020]{.cv-date}
 
 :::
 
 ::::
 
-:::: {.cv-entry}
+### Non-Academic
 
-[2018]{.cv-date}
+:::: {.cv-entry}
 
 ::: {.cv-what}
 
-**Consulting Intern**
+**Consulting, media and language tutoring**
 
-[CPC Unternehmensmanagement AG, Frankfurt am Main, Germany]{.cv-where}
-
-Organisational change management concept for a large logistics firm; data analysis and visualisation.
+- Consulting Assistant and Consulting Intern, CPC Unternehmensmanagement AG, Bonn & Frankfurt am Main
+- Student Assistant, Editorial Office *Documentaries*, phoenix / ZDF, Bonn
+- German Language Tutor, German School Abroad Bilbao, Spain
 
 :::
 
-::::
+::: {.cv-meta}
 
-:::: {.cv-entry}
-
-[2017 – 2018]{.cv-date}
-
-::: {.cv-what}
-
-**Student Assistant, Editorial Office *Documentaries***
-
-[phoenix / ZDF, Bonn, Germany]{.cv-where}
-
-:::
-
-::::
-
-:::: {.cv-entry}
-
-[2015 – 2016]{.cv-date}
-
-::: {.cv-what}
-
-**German Language Tutor (gap year)**
-
-[German School Abroad Bilbao, Spain]{.cv-where}
+[2015 – 2020]{.cv-date}
 
 :::
 
@@ -504,9 +608,9 @@ Organisational change management concept for a large logistics firm; data analys
 
 ## Personal
 
-:::: {.cv-entry}
+:::: {.cv-row}
 
-[Software]{.cv-date}
+[Software]{.cv-label}
 
 ::: {.cv-what}
 
@@ -516,9 +620,9 @@ Stata, Python, LaTeX, Git, oTree, MS Office
 
 ::::
 
-:::: {.cv-entry}
+:::: {.cv-row}
 
-[Languages]{.cv-date}
+[Languages]{.cv-label}
 
 ::: {.cv-what}
 
@@ -528,9 +632,9 @@ German (native), English (fluent), Spanish (fluent)
 
 ::::
 
-:::: {.cv-entry}
+:::: {.cv-row}
 
-[Citizenship]{.cv-date}
+[Citizenship]{.cv-label}
 
 ::: {.cv-what}
 

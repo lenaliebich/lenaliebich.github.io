@@ -247,23 +247,52 @@ ul {
 }
 
 // ── CV timeline ──────────────────────────────────────────────
+// Institution first in bold, role beneath; location sits above the years
+// in a right-hand column, as in a conventional academic CV.
 .cv-entry {
   display: grid;
-  grid-template-columns: 8.5rem 1fr;
-  gap: 1rem;
-  padding: 0.7rem 0;
+  grid-template-columns: 1fr auto;
+  gap: 1.25rem;
+  padding: 0.75rem 0;
   border-bottom: 1px solid $rule;
 
   p { margin: 0; }
-  ul { margin: 0; padding-left: 1.05rem; }
-  .cv-date { color: $ink-soft; font-size: 0.86rem; letter-spacing: 0.02em; padding-top: 0.2rem; }
+  ul { margin: 0.2rem 0 0; padding-left: 1.05rem; }
   .cv-what strong { display: block; }
-  .cv-what p + p { margin-top: 0.15rem; }
-  .cv-where { color: $ink-soft; }
+  .cv-what p + p { margin-top: 0.12rem; }
+  .cv-what p:nth-of-type(n+3) { color: $ink-soft; font-size: 0.95em; }
 }
 
+.cv-meta {
+  text-align: right;
+  white-space: nowrap;   // keep "Frankfurt am Main, Germany" on one line
+  padding-top: 0.12rem;
+  font-family: $font-family-sans-serif;
+  font-size: 0.84rem;
+  letter-spacing: 0.02em;
+  color: $ink-soft;
+
+  .cv-loc, .cv-date { display: block; }
+  .cv-date { color: $ink; }
+}
+
+// Label/value rows (Personal)
+.cv-row {
+  display: grid;
+  grid-template-columns: 8.5rem 1fr;
+  gap: 1rem;
+  padding: 0.55rem 0;
+  border-bottom: 1px solid $rule;
+
+  p { margin: 0; }
+  .cv-label { font-family: $font-family-sans-serif; font-size: 0.84rem; color: $ink-soft; }
+}
+
+h3 { font-size: 1.02rem; margin: 1.4rem 0 0.2rem; color: $ink-soft; font-weight: 600; }
+
 @media (max-width: 620px) {
-  .cv-entry { grid-template-columns: 1fr; gap: 0.15rem; }
+  .cv-entry, .cv-row { grid-template-columns: 1fr; gap: 0.2rem; }
+  .cv-meta { text-align: left; order: -1; display: flex; gap: 0.6rem; white-space: normal; }
 }
 
 // ── Footer ───────────────────────────────────────────────────

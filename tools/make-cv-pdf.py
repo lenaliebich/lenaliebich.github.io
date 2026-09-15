@@ -65,16 +65,21 @@ PRINT_CSS = f"""
     left: 0; bottom: -.6pt; width: 26pt; height: 1.4pt; background: {TEAL};
   }}
 
-  /* Entries: content left, dates right */
+  /* Entries: institution and role left, location over years right */
   .cv-entry {{
-    grid-template-columns: 1fr 7.2rem !important; gap: .4rem !important;
+    grid-template-columns: 1fr auto !important; gap: .9rem !important;
     padding: 4.5pt 0 !important; border-bottom: none !important; break-inside: avoid;
   }}
-  .cv-entry > p:first-child {{ order: 2; text-align: right; }}
-  .cv-entry .cv-what {{ order: 1; }}
-  .cv-date  {{ font-family: "IBM Plex Sans", sans-serif; color: #4b5563 !important;
-              font-size: 8.6pt !important; letter-spacing: .02em; }}
-  .cv-where {{ color: #4b5563 !important; }}
+  .cv-what p:nth-of-type(n+3) {{ color: #4b5563 !important; font-size: 9pt !important; }}
+  .cv-meta {{ font-family: "IBM Plex Sans", sans-serif; font-size: 8.4pt !important;
+             color: #4b5563 !important; text-align: right; white-space: nowrap; }}
+  .cv-meta .cv-date {{ color: #1f2328 !important; }}
+  .cv-row {{ grid-template-columns: 6.5rem 1fr !important; padding: 2.5pt 0 !important;
+            border-bottom: none !important; }}
+  .cv-label {{ font-family: "IBM Plex Sans", sans-serif; font-size: 8.4pt !important;
+              color: #4b5563 !important; }}
+  h3 {{ font-size: 10pt !important; margin: 8pt 0 1pt !important; color: #4b5563 !important;
+       break-after: avoid; }}
   .cv-entry ul {{ margin: 1pt 0 0 !important; }}
   li {{ margin-bottom: 0 !important; }}
 
