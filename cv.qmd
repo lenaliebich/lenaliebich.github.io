@@ -3,7 +3,7 @@ title: "Curriculum Vitae"
 subtitle: "Last updated: September 2026"
 ---
 
-[Download CV (PDF)](assets/cv/Liebich-CV.pdf){.badge-link}
+[Download CV (PDF)](assets/cv/Liebich-CV.pdf){.badge-link .cv-download}
 
 ## Academic Appointments
 

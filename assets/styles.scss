@@ -239,6 +239,20 @@ details.abstract {
   &:hover { color: $accent; border-color: $accent; }
 }
 
+// The CV download link is an action, not a reference: same pill, filled
+.badge-link.cv-download {
+  color: $accent-dk;
+  background: $accent-tint;
+  border-color: rgba($accent, 0.4);
+  padding: 0.25rem 0.7rem;
+  font-weight: 500;
+  &:hover {
+    color: $accent-dk;
+    background: rgba($accent, 0.18);
+    border-color: $accent;
+  }
+}
+
 // ── Lists: tight, with quiet markers ─────────────────────────
 ul {
   padding-left: 1.15rem;
