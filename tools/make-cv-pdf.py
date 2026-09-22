@@ -24,7 +24,24 @@ CHROME  = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 NAME    = "LENA LIEBICH"
 INST    = "HARVARD BUSINESS SCHOOL AI INSTITUTE, DIGITAL RESKILLING LAB"
 ADDR    = "Cotting House 300, Boston, MA 02163"
-CONTACT = "lliebich@hbs.edu &middot; lenaliebich.github.io"
+EMAIL   = "lliebich@hbs.edu"
+SITE    = "lenaliebich.github.io"
+
+# Inline so the icons survive in the PDF; they inherit the text colour
+ICON_MAIL = ('<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" '
+             'stroke-linecap="round" stroke-linejoin="round">'
+             '<rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/>'
+             '<path d="M3.2 6.6 12 13.1l8.8-6.5"/></svg>')
+ICON_SITE = ('<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" '
+             'stroke-linecap="round" stroke-linejoin="round">'
+             '<circle cx="12" cy="12" r="9.2"/><path d="M2.8 12h18.4"/>'
+             '<path d="M12 2.8c2.5 2.7 3.8 5.8 3.8 9.2S14.5 18.5 12 21.2'
+             'c-2.5-2.7-3.8-5.8-3.8-9.2S9.5 5.5 12 2.8z"/></svg>')
+
+# Real anchors: without them a reader guesses where the address ends and clips it
+CONTACT = (f'<a href="mailto:{EMAIL}">{ICON_MAIL}{EMAIL}</a>'
+           f'<span class="sep">&middot;</span>'
+           f'<a href="https://{SITE}">{ICON_SITE}{SITE}</a>')
 STAMP   = "Last updated: September 2026"
 
 TEAL, TEAL_DK, TEAL_TINT = "#0f766e", "#0a544e", "#eaf3f1"
@@ -54,6 +71,11 @@ PRINT_CSS = f"""
   .cvpdf-head .d {{ font-size: 9.2pt; margin-top: 2pt; color: #444; }}
   .cvpdf-head .c {{ font-family: "IBM Plex Sans", sans-serif; font-size: 8.8pt;
                    margin-top: 3pt; color: #444; }}
+  .cvpdf-head .c a {{ color: #444 !important; text-decoration: none !important;
+                     white-space: nowrap; }}
+  .cvpdf-head .c .sep {{ margin: 0 6pt; color: #9aa0a6; }}
+  .cvpdf-head .c svg {{ width: 8.4pt; height: 8.4pt; vertical-align: -1pt;
+                       margin-right: 2.8pt; stroke: {TEAL_DK}; }}
 
   /* Section headings keep the site's grey rule plus teal tab */
   h2 {{

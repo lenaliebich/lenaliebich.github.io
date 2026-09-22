@@ -19,7 +19,7 @@ Postdoctoral Fellow, Digital Reskilling Lab
 
 ::: {.cv-meta}
 
-[Boston, MA]{.cv-loc}
+[Boston, MA, US]{.cv-loc}
 
 [2026 – present]{.cv-date}
 
@@ -213,7 +213,25 @@ BSc Economics held by Isabel Schnabel
 
 ::::
 
-## Awards & Scholarships
+## Awards, Grants & Scholarships
+
+:::: {.cv-entry}
+
+::: {.cv-what}
+
+**Publication Prize for Early Career Researchers**
+
+For the forthcoming publication of *Knowing (Not) to Know: Explainable Artificial Intelligence and Human Metacognition* in *Information Systems Research*
+
+:::
+
+::: {.cv-meta}
+
+[2026]{.cv-date}
+
+:::
+
+::::
 
 :::: {.cv-entry}
 
