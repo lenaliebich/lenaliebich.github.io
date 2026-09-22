@@ -19,14 +19,14 @@ about:
       href: cv.qmd
 ---
 
-I am a **Postdoctoral Fellow in the Digital Reskilling Lab at the Harvard
-Business School AI Institute** and a **Research Affiliate** of the **Leibniz Institute
-for Financial Research SAFE**. Before joining HBS, I completed my **PhD in Economics**
+I am a **Postdoctoral Fellow in the [Digital Reskilling Lab](https://aiinstitute.hbs.edu/digital-reskilling/) at the [Harvard
+Business School AI Institute](https://aiinstitute.hbs.edu)** and a **Research Affiliate** of the **[Leibniz Institute
+for Financial Research SAFE](https://safe-frankfurt.de)**. Before joining HBS, I completed my **PhD in Economics**
 at the Graduate School of Economics, Finance and Management at **Goethe University
-Frankfurt**, supervised by Christine Laudenbach and Michael Kosfeld. 
+Frankfurt**, supervised by [Christine Laudenbach](https://sites.google.com/site/christinexlaudenbach/) and [Michael Kosfeld](https://sites.google.com/site/michaelkosfeld/).
 
-During my PhD, I **visited** the Department of Decisions, Operations and Technology at **CUHK Business School, Hong Kong**, 
-and the **Centre for Brain, Mind and Markets at the University of Melbourne**.
+During my PhD, I **visited** the Department of Decisions, Operations and Technology at **[CUHK Business School](https://www.bschool.cuhk.edu.hk/departments/decisions-operations-and-technology/), Hong Kong**,
+and the **[Centre for Brain, Mind and Markets](https://www.unimelb.edu.au/cbmm) at the University of Melbourne**.
 
 Bridging the gap between Economics and Information Systems, I primarily investigate how humans can effectively collaborate with AI systems 
 to improve decision quality in organizations undergoing technological change. 
