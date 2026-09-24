@@ -5,6 +5,7 @@ pagetitle: "Lena Liebich"
 about:
   template: trestles
   image: assets/img/profile.jpg
+  image-alt: "Portrait of Lena Liebich"
   image-shape: round
   image-width: 14em
   links:

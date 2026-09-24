@@ -24,7 +24,7 @@ with Kevin Bauer and Michael Kosfeld (2025)<br>
 [*Proceedings of the European Conference on Information Systems (ECIS 2025)*]{.pub-venue}<br>
 
 
-[Machine Behavior]{.kw-topic} [LLMs in Research]{.kw-topic} [LLM experiment]{.kw-method}
+[Machine Behavior]{.kw-topic} [Human-AI Collaboration]{.kw-topic} [LLM experiment]{.kw-method}
 
 <details class="abstract">
 <summary>Abstract</summary>

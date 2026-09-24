@@ -1,6 +1,6 @@
 # ─────────────────────────────────────────────────────────────
 # Site configuration.
-# Anything in UPPERCASE is a placeholder for you to replace.
+# Published from this repo's docs/ folder to https://lenaliebich.github.io
 # ─────────────────────────────────────────────────────────────
 project:
   type: website
@@ -14,7 +14,11 @@ website:
   title: "Lena Liebich"
   description: "Postdoctoral Fellow at the Harvard Business School AI Institute"
   site-url: "https://lenaliebich.github.io"
+  # Preview card shown when a page is shared on LinkedIn, X, Slack, etc.
+  # Quarto turns this into an absolute URL using site-url above.
+  image: assets/img/profile.jpg
   open-graph: true
+  twitter-card: true
 
   navbar:
     pinned: true
@@ -43,7 +47,6 @@ format:
     theme: [cosmo, assets/styles.scss]
     toc: false
     anchor-sections: false
-    link-external-newwindow: true
     smooth-scroll: true
     include-in-header:
       text: |
@@ -51,8 +54,9 @@ format:
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,300;0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
 
-bibliography: bib/refs.bib
-# csl: bib/apa.csl        # optional: drop an APA CSL file here for APA-style references
+# No `bibliography:` key: publications are written out by hand in
+# _publications.qmd rather than generated from BibTeX. To switch to citations,
+# add a .bib file and point `bibliography:` at it here.
 
 execute:
   freeze: auto

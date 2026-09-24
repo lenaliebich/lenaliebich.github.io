@@ -17,6 +17,6 @@
 
 **/*.quarto_ipynb
 
-# LaTeX CV source (working files, not published)
-*.tex
-example_cv.pdf
+# Full-resolution photo originals: kept on disk, not published.
+# The web-sized copy in assets/img/ is what the site actually serves.
+assets/img/originals/

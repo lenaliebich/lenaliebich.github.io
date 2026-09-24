@@ -50,7 +50,7 @@ body {
 // Interface chrome stays in the sans face
 .navbar, .nav-footer, .cv-date, .pub-meta, .subtitle, .kw-legend,
 .badge-link, .kw-topic, .kw-method, details.abstract > summary,
-.quarto-about-jolla .about-links .about-link, .about-link {
+.about-link {
   font-family: $font-family-sans-serif;
 }
 
@@ -130,7 +130,9 @@ a {
 }
 
 // ── About / landing block ────────────────────────────────────
-.quarto-about-jolla {
+// Must match the `template:` set in index.qmd — Quarto names this wrapper
+// after the template, so styling the wrong one silently does nothing.
+.quarto-about-trestles {
   .about-image { border-radius: 50%; }
   .about-links .about-link {
     color: $ink-soft;
