@@ -597,7 +597,10 @@ ul.task-list li input[type="checkbox"] {
 </footer>
 <script>
 (function () {
-  function openExternalLinksInNewTab() {
+  // Files a browser downloads or hands to a viewer, replacing the page
+  var DOCUMENT_FILE = /\.(?:pdf|docx?|pptx?|xlsx?|csv|zip)$/i;
+
+  function openInNewTabWhereLeaving() {
     var links = document.querySelectorAll("a[href]");
     for (var i = 0; i < links.length; i++) {
       var a = links[i];
@@ -611,17 +614,25 @@ ul.task-list li input[type="checkbox"] {
       }
       // Leaves mailto:, tel: and any other scheme untouched
       if (url.protocol !== "http:" && url.protocol !== "https:") continue;
-      if (url.host === window.location.host) continue;  // same site
-      a.setAttribute("target", "_blank");
-      // Denies the new tab access to window.opener (tabnabbing) and
-      // withholds the referrer.
-      a.setAttribute("rel", "noopener noreferrer");
+
+      if (url.host === window.location.host) {
+        // Our own pages stay in this tab; our own documents do not,
+        // so opening the CV does not close the page behind it.
+        if (!DOCUMENT_FILE.test(url.pathname)) continue;
+        a.setAttribute("target", "_blank");
+        a.setAttribute("rel", "noopener");
+      } else {
+        a.setAttribute("target", "_blank");
+        // Denies the new tab access to window.opener (tabnabbing) and
+        // withholds the referrer.
+        a.setAttribute("rel", "noopener noreferrer");
+      }
     }
   }
   if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", openExternalLinksInNewTab);
+    document.addEventListener("DOMContentLoaded", openInNewTabWhereLeaving);
   } else {
-    openExternalLinksInNewTab();
+    openInNewTabWhereLeaving();
   }
 })();
 </script>
