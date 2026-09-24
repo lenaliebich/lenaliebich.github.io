@@ -132,9 +132,9 @@ a {
 // ── About / landing block ────────────────────────────────────
 // Must match the `template:` set in index.qmd — Quarto names this wrapper
 // after the template, so styling the wrong one silently does nothing.
-.quarto-about-trestles {
+div.quarto-about-trestles {
   .about-image { border-radius: 50%; }
-  .about-links .about-link {
+  .about-entity .about-link {
     color: $ink-soft;
     border: 1px solid $rule;
     border-radius: 2px;

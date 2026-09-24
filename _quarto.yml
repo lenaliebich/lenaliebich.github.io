@@ -36,6 +36,9 @@ website:
       - icon: google
         href: "https://scholar.google.com/citations?user=cl_MymMAAAAJ"
         aria-label: Google Scholar
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/lena-liebich"
+        aria-label: LinkedIn
 
   page-footer:
     border: false

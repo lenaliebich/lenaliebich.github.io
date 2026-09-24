@@ -15,6 +15,9 @@ about:
     - icon: google
       text: Scholar
       href: "https://scholar.google.com/citations?user=cl_MymMAAAAJ"
+    - icon: linkedin
+      text: LinkedIn
+      href: "https://www.linkedin.com/in/lena-liebich"
     - icon: file-earmark-text
       text: CV
       href: cv.qmd
