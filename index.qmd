@@ -12,12 +12,19 @@ about:
     - icon: envelope
       text: Email
       href: "mailto:lliebich@hbs.edu"
+    # target/rel here rather than from the filter: these buttons are built by
+    # Quarto's about template, so they never reach a Pandoc filter.
     - icon: google
       text: Scholar
       href: "https://scholar.google.com/citations?user=cl_MymMAAAAJ"
+      target: _blank
+      rel: "noopener noreferrer"
     - icon: linkedin
       text: LinkedIn
       href: "https://www.linkedin.com/in/lena-liebich"
+      target: _blank
+      rel: "noopener noreferrer"
+    # The CV page is part of this site, so it stays in the same tab
     - icon: file-earmark-text
       text: CV
       href: cv.qmd

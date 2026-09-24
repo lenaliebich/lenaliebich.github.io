@@ -33,17 +33,23 @@ website:
       - icon: envelope
         href: "mailto:lliebich@hbs.edu"
         aria-label: Email
+      # target/rel here rather than from the filter: the navbar is built by
+      # Quarto's template, so its links never reach a Pandoc filter.
       - icon: google
         href: "https://scholar.google.com/citations?user=cl_MymMAAAAJ"
         aria-label: Google Scholar
+        target: _blank
+        rel: "noopener noreferrer"
       - icon: linkedin
         href: "https://www.linkedin.com/in/lena-liebich"
         aria-label: LinkedIn
+        target: _blank
+        rel: "noopener noreferrer"
 
   page-footer:
     border: false
     left: "© 2026 Lena Liebich"
-    right: "Built with [Quarto](https://quarto.org)"
+    right: 'Built with <a href="https://quarto.org" target="_blank" rel="noopener noreferrer">Quarto</a>'
 
 format:
   html:
@@ -57,64 +63,10 @@ format:
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,300;0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
 
-    # Open links in a new tab when following them would otherwise take the
-    # visitor off the page they are reading: any link to another site, and any
-    # link to a document on this site (the CV PDF, and papers, slides or
-    # posters added under assets/files/ later).
-    #
-    # Quarto's own `link-external-newwindow: true` produces no target attribute
-    # in 1.10.18 (verified at project, format and document level, with and
-    # without link-external-filter), so this is done here instead. It runs in
-    # the browser rather than as a Pandoc filter on purpose: the navbar icons
-    # and the About-page link buttons are emitted by Quarto's templates after
-    # Pandoc has finished, so a filter would never see them and Scholar and
-    # LinkedIn would keep opening in the same tab.
-    #
-    # Page-to-page navigation within the site, in-page anchors and mailto: are
-    # deliberately left alone.
-    include-after-body:
-      text: |
-        <script>
-        (function () {
-          // Files a browser downloads or hands to a viewer, replacing the page
-          var DOCUMENT_FILE = /\.(?:pdf|docx?|pptx?|xlsx?|csv|zip)$/i;
-
-          function openInNewTabWhereLeaving() {
-            var links = document.querySelectorAll("a[href]");
-            for (var i = 0; i < links.length; i++) {
-              var a = links[i];
-              var raw = a.getAttribute("href");
-              if (!raw || raw.charAt(0) === "#") continue;   // in-page anchor
-              var url;
-              try {
-                url = new URL(a.href, window.location.href);
-              } catch (e) {
-                continue;
-              }
-              // Leaves mailto:, tel: and any other scheme untouched
-              if (url.protocol !== "http:" && url.protocol !== "https:") continue;
-
-              if (url.host === window.location.host) {
-                // Our own pages stay in this tab; our own documents do not,
-                // so opening the CV does not close the page behind it.
-                if (!DOCUMENT_FILE.test(url.pathname)) continue;
-                a.setAttribute("target", "_blank");
-                a.setAttribute("rel", "noopener");
-              } else {
-                a.setAttribute("target", "_blank");
-                // Denies the new tab access to window.opener (tabnabbing) and
-                // withholds the referrer.
-                a.setAttribute("rel", "noopener noreferrer");
-              }
-            }
-          }
-          if (document.readyState === "loading") {
-            document.addEventListener("DOMContentLoaded", openInNewTabWhereLeaving);
-          } else {
-            openInNewTabWhereLeaving();
-          }
-        })();
-        </script>
+# Opens links that leave the current page in a new tab. See the file for what
+# counts as "leaving" and why this is not done in the browser.
+filters:
+  - tools/external-links.lua
 
 # No `bibliography:` key: publications are written out by hand in
 # _publications.qmd rather than generated from BibTeX. To switch to citations,

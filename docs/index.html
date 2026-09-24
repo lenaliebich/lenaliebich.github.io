@@ -124,12 +124,12 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://scholar.google.com/citations?user=cl_MymMAAAAJ"> <i class="bi bi-google" role="img" aria-label="Google Scholar">
+    <a class="nav-link" href="https://scholar.google.com/citations?user=cl_MymMAAAAJ" rel="noopener noreferrer" target="_blank"> <i class="bi bi-google" role="img" aria-label="Google Scholar">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/in/lena-liebich"> <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+    <a class="nav-link" href="https://www.linkedin.com/in/lena-liebich" rel="noopener noreferrer" target="_blank"> <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -163,11 +163,11 @@ ul.task-list li input[type="checkbox"] {
     <i class="bi bi-envelope"></i>
      <span class="about-link-text">Email</span>
   </a>
-  <a href="https://scholar.google.com/citations?user=cl_MymMAAAAJ" class="about-link" rel="" target="">
+  <a href="https://scholar.google.com/citations?user=cl_MymMAAAAJ" class="about-link" rel="noopener noreferrer" target="_blank">
     <i class="bi bi-google"></i>
      <span class="about-link-text">Scholar</span>
   </a>
-  <a href="https://www.linkedin.com/in/lena-liebich" class="about-link" rel="" target="">
+  <a href="https://www.linkedin.com/in/lena-liebich" class="about-link" rel="noopener noreferrer" target="_blank">
     <i class="bi bi-linkedin"></i>
      <span class="about-link-text">LinkedIn</span>
   </a>
@@ -178,8 +178,8 @@ ul.task-list li input[type="checkbox"] {
 </div>
   </div>
   <div class="about-contents"><main class="content" id="quarto-document-content">
-<p>I am a <strong>Postdoctoral Fellow</strong> in the <a href="https://aiinstitute.hbs.edu/digital-reskilling/">Digital Reskilling Lab</a> at the <a href="https://aiinstitute.hbs.edu">Harvard Business School AI Institute</a> and a <strong>Research Affiliate</strong> of the <strong><a href="https://safe-frankfurt.de">Leibniz Institute for Financial Research SAFE</a></strong>. Before joining HBS, I completed my <strong>PhD in Economics</strong> at the Graduate School of Economics, Finance and Management at <strong>Goethe University Frankfurt</strong>, supervised by <a href="https://sites.google.com/site/christinexlaudenbach/">Christine Laudenbach</a> and <a href="https://sites.google.com/site/michaelkosfeld/">Michael Kosfeld</a>.</p>
-<p>During my PhD, I visited the <a href="https://www.bschool.cuhk.edu.hk/departments/decisions-operations-and-technology/">Department of Decisions, Operations and Technology at CUHK Business School</a>, Hong Kong, and the <a href="https://www.unimelb.edu.au/cbmm">Centre for Brain, Mind and Markets</a> at the University of Melbourne.</p>
+<p>I am a <strong>Postdoctoral Fellow</strong> in the <a href="https://aiinstitute.hbs.edu/digital-reskilling/" target="_blank" rel="noopener noreferrer">Digital Reskilling Lab</a> at the <a href="https://aiinstitute.hbs.edu" target="_blank" rel="noopener noreferrer">Harvard Business School AI Institute</a> and a <strong>Research Affiliate</strong> of the <strong><a href="https://safe-frankfurt.de" target="_blank" rel="noopener noreferrer">Leibniz Institute for Financial Research SAFE</a></strong>. Before joining HBS, I completed my <strong>PhD in Economics</strong> at the Graduate School of Economics, Finance and Management at <strong>Goethe University Frankfurt</strong>, supervised by <a href="https://sites.google.com/site/christinexlaudenbach/" target="_blank" rel="noopener noreferrer">Christine Laudenbach</a> and <a href="https://sites.google.com/site/michaelkosfeld/" target="_blank" rel="noopener noreferrer">Michael Kosfeld</a>.</p>
+<p>During my PhD, I visited the <a href="https://www.bschool.cuhk.edu.hk/departments/decisions-operations-and-technology/" target="_blank" rel="noopener noreferrer">Department of Decisions, Operations and Technology at CUHK Business School</a>, Hong Kong, and the <a href="https://www.unimelb.edu.au/cbmm" target="_blank" rel="noopener noreferrer">Centre for Brain, Mind and Markets</a> at the University of Melbourne.</p>
 <p>Bridging the gap between Economics and Information Systems, I primarily investigate how humans can effectively collaborate with AI systems to improve decision quality in organizations undergoing technological change. I particularly focus on the role of design features of the AI, such as providing explanations of its prediction logic (explainable AI), in shaping users’ beliefs, thought processes and behavior.</p>
 <p>In a second strand of my research, my co-authors and I design a natural field experiment to test the effectiveness of evidence-based behavioral interventions in motivating debt repayment behavior.</p>
 <p>Across my projects, I apply a behavioral lens designing and conducting a variety of incentivized behavioral experiments (online, lab-in-the-field, field) and large-scale surveys - often in collaboration with industry partners across sectors (e.g.&nbsp;real estate, banking, fintech).</p>
@@ -591,51 +591,10 @@ ul.task-list li input[type="checkbox"] {
       &nbsp;
     </div>
     <div class="nav-footer-right">
-<p>Built with <a href="https://quarto.org">Quarto</a></p>
+<p>Built with <a href="https://quarto.org" target="_blank" rel="noopener noreferrer">Quarto</a></p>
 </div>
   </div>
 </footer>
-<script>
-(function () {
-  // Files a browser downloads or hands to a viewer, replacing the page
-  var DOCUMENT_FILE = /\.(?:pdf|docx?|pptx?|xlsx?|csv|zip)$/i;
-
-  function openInNewTabWhereLeaving() {
-    var links = document.querySelectorAll("a[href]");
-    for (var i = 0; i < links.length; i++) {
-      var a = links[i];
-      var raw = a.getAttribute("href");
-      if (!raw || raw.charAt(0) === "#") continue;   // in-page anchor
-      var url;
-      try {
-        url = new URL(a.href, window.location.href);
-      } catch (e) {
-        continue;
-      }
-      // Leaves mailto:, tel: and any other scheme untouched
-      if (url.protocol !== "http:" && url.protocol !== "https:") continue;
-
-      if (url.host === window.location.host) {
-        // Our own pages stay in this tab; our own documents do not,
-        // so opening the CV does not close the page behind it.
-        if (!DOCUMENT_FILE.test(url.pathname)) continue;
-        a.setAttribute("target", "_blank");
-        a.setAttribute("rel", "noopener");
-      } else {
-        a.setAttribute("target", "_blank");
-        // Denies the new tab access to window.opener (tabnabbing) and
-        // withholds the referrer.
-        a.setAttribute("rel", "noopener noreferrer");
-      }
-    }
-  }
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", openInNewTabWhereLeaving);
-  } else {
-    openInNewTabWhereLeaving();
-  }
-})();
-</script>
 
 
 
