@@ -39,8 +39,9 @@ Frankfurt**, supervised by [Christine Laudenbach](https://sites.google.com/site/
 During my PhD, I visited the [Department of Decisions, Operations and Technology at CUHK Business School](https://www.bschool.cuhk.edu.hk/departments/decisions-operations-and-technology/), Hong Kong,
 and the [Centre for Brain, Mind and Markets](https://www.unimelb.edu.au/cbmm) at the University of Melbourne.
 
-Bridging the gap between Economics and Information Systems, I primarily investigate how humans can effectively collaborate with AI systems 
-to improve decision quality in organizations undergoing technological change. 
+My research primarily investigates how humans can effectively collaborate with AI systems
+to improve decision quality in organizations undergoing technological change -- combining
+perspectives from Economics and Information Systems.
 I particularly focus on the role of design features of the AI, such as providing explanations 
 of its prediction logic (explainable AI), in shaping users' beliefs, thought processes and behavior. 
 
