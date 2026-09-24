@@ -641,6 +641,36 @@ Abstract
 </div>
   </div>
 </footer>
+<script>
+(function () {
+  function openExternalLinksInNewTab() {
+    var links = document.querySelectorAll("a[href]");
+    for (var i = 0; i < links.length; i++) {
+      var a = links[i];
+      var raw = a.getAttribute("href");
+      if (!raw || raw.charAt(0) === "#") continue;   // in-page anchor
+      var url;
+      try {
+        url = new URL(a.href, window.location.href);
+      } catch (e) {
+        continue;
+      }
+      // Leaves mailto:, tel: and any other scheme untouched
+      if (url.protocol !== "http:" && url.protocol !== "https:") continue;
+      if (url.host === window.location.host) continue;  // same site
+      a.setAttribute("target", "_blank");
+      // Denies the new tab access to window.opener (tabnabbing) and
+      // withholds the referrer.
+      a.setAttribute("rel", "noopener noreferrer");
+    }
+  }
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", openExternalLinksInNewTab);
+  } else {
+    openExternalLinksInNewTab();
+  }
+})();
+</script>
 
 
 
