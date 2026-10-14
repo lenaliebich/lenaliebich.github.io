@@ -304,6 +304,17 @@ ul {
   .cv-label { font-family: $font-family-sans-serif; font-size: 0.84rem; color: $ink-soft; }
 }
 
+// Key under a section heading, e.g. "* upcoming". Its own class rather than
+// .kw-legend, which the PDF build hides; this one must print.
+.cv-note {
+  font-family: $font-family-sans-serif;
+  font-size: 0.82rem;
+  color: $ink-soft;
+  margin: 0.5rem 0 0.1rem;
+
+  p { margin: 0; }
+}
+
 h3 { font-size: 1.02rem; margin: 1.4rem 0 0.2rem; color: $ink-soft; font-weight: 600; }
 
 @media (max-width: 620px) {

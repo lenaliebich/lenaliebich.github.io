@@ -42,7 +42,7 @@ ICON_SITE = ('<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-
 CONTACT = (f'<a href="mailto:{EMAIL}">{ICON_MAIL}{EMAIL}</a>'
            f'<span class="sep">&middot;</span>'
            f'<a href="https://{SITE}">{ICON_SITE}{SITE}</a>')
-STAMP   = "Last updated: September 2026"
+STAMP   = "Last updated: October 2026"
 
 TEAL, TEAL_DK, TEAL_TINT = "#0f766e", "#0a544e", "#eaf3f1"
 

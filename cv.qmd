@@ -1,6 +1,6 @@
 ---
 title: "Curriculum Vitae"
-subtitle: "Last updated: September 2026"
+subtitle: "Last updated: October 2026"
 ---
 
 [Download CV (PDF)](assets/cv/Liebich-CV.pdf){.badge-link .cv-download}
@@ -306,6 +306,10 @@ Leibniz Institute for Financial Research SAFE
 ::::
 
 ## Conferences, Seminars and Invited Talks
+
+::: {.cv-note}
+\* upcoming
+:::
 
 :::: {.cv-entry}
 
