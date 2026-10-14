@@ -2,8 +2,8 @@
 
 ::: {.pub}
 [Knowing (Not) to Know: Explainable Artificial Intelligence and Human Metacognition]{.pub-title}<br>
-with Moritz von Zahn, Ekaterina Jussupow, Oliver Hinz and Kevin Bauer (2025)<br>
-[Forthcoming in *Information Systems Research*, published online in Articles in Advance.]{.pub-venue}
+with Moritz von Zahn, Ekaterina Jussupow, Oliver Hinz and Kevin Bauer (2026)<br>
+[*Information Systems Research*, 37(3), 1485–1507.]{.pub-venue}
 
 [Explainable AI]{.kw-topic} [Human-AI Collaboration]{.kw-topic} [Lab-in-the-field experiment]{.kw-method}
 
