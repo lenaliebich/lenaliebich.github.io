@@ -7,6 +7,7 @@ project:
   output-dir: docs          # GitHub Pages serves from main branch /docs
   resources:
     - ".nojekyll"          # stops GitHub Pages running Jekyll over Quarto output
+    - "assets/fonts/OFL-*.txt"   # the font license travels with the published fonts
   render:
     - "*.qmd"
 
@@ -54,6 +55,8 @@ website:
 format:
   html:
     theme: [cosmo, assets/styles.scss]
+    # Self-hosted IBM Plex Sans and Spectral; see the header of that file
+    css: assets/fonts/fonts.css
     toc: false
     anchor-sections: false
     smooth-scroll: true
@@ -75,9 +78,6 @@ format:
       # Visits from localhost (quarto preview, tools/make-cv-pdf.py) are
       # ignored by count.js itself, so local work is never counted.
       text: |
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,300;0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
         <script data-goatcounter="https://lenaliebich.goatcounter.com/count" async src="https://gc.zgo.at/count.v5.js" crossorigin="anonymous" integrity="sha384-atnOLvQb9t+jTSipvd75X2yginT4PjVbqDdlJAmxMm+wYElFmeR6EmLP5bYeoRVQ"></script>
 
 # Opens links that leave the current page in a new tab. See the file for what

@@ -161,7 +161,7 @@ def overlay_html(n):
     rows = "\n".join(
         f'<div class="pg"><span>Page {i} of {n}</span></div>' for i in range(1, n + 1))
     return f"""<!doctype html><html><head><meta charset="utf-8">
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400&display=swap" rel="stylesheet">
+<link href="assets/fonts/fonts.css" rel="stylesheet">
 <style>
 @page {{ size: A4; margin: 0; }}
 body {{ margin: 0; font-family: "IBM Plex Sans", sans-serif; }}

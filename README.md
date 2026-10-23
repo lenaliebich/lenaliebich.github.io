@@ -49,6 +49,7 @@ publishes stale pages. GitHub Pages rebuilds within a minute or two.
 | `_publications.qmd` | Publication list, included by both `research.qmd` and `cv.qmd` |
 | `assets/styles.scss` | Custom styling |
 | `assets/img/` | Web-sized photos (`originals/` is local-only, not committed) |
+| `assets/fonts/` | Self-hosted IBM Plex Sans and Spectral, with their licenses; no requests go to Google Fonts |
 | `assets/cv/` | CV PDF |
 | `assets/files/` | Paper PDFs, slides, posters |
 | `tools/make-cv-pdf.py` | Builds the CV PDF from the rendered CV page |

@@ -26,6 +26,12 @@ $link-hover-color: $accent-dk;
 $font-family-sans-serif: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 $font-family-serif:      "Spectral", Georgia, "Times New Roman", serif;
 
+// The cosmo theme @imports Source Sans Pro from Google Fonts on every page,
+// although this site never uses it. That request alone hands each visitor's
+// IP address to Google, so switch it off; our fonts are self-hosted in
+// assets/fonts/.
+$web-font-path: false;
+
 $font-size-root: 17px;
 $line-height-base: 1.62;
 
