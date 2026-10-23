@@ -69,7 +69,7 @@ and large-scale surveys - often in collaboration with industry partners across s
   Says in machine-readable form who this page is about, so search engines can
   tell this Lena Liebich apart from others and connect the site to the same
   person's other profiles (sameAs). Keep it in step with the bio above: role,
-  affiliations and profile links. Add an ORCID URL to sameAs once there is one.
+  affiliations and profile links.
 -->
 ```{=html}
 <script type="application/ld+json">
@@ -105,7 +105,13 @@ and large-scale surveys - often in collaboration with industry partners across s
       "Information systems",
       "Household finance"
     ],
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "ORCID",
+      "value": "0009-0009-5984-4172"
+    },
     "sameAs": [
+      "https://orcid.org/0009-0009-5984-4172",
       "https://scholar.google.com/citations?user=cl_MymMAAAAJ",
       "https://www.linkedin.com/in/lena-liebich"
     ]
