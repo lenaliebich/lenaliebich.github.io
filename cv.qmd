@@ -3,7 +3,7 @@ title: "Curriculum Vitae"
 subtitle: "Last updated: October 2026"
 ---
 
-[Download CV (PDF)](assets/cv/Liebich-CV.pdf){.badge-link .cv-download}
+[Download CV (PDF)](assets/cv/Liebich-CV.pdf){.badge-link .cv-download data-goatcounter-click="cv-pdf-download" data-goatcounter-title="CV PDF download"}
 
 ## Academic Appointments
 

@@ -57,11 +57,28 @@ format:
     toc: false
     anchor-sections: false
     smooth-scroll: true
+    # One canonical address per page. Quarto's navigation rewrites
+    # /index.html to /, so without this a visit to the same page could arrive
+    # under either path and GoatCounter (below) would count them separately.
+    # Also tells search engines which address to list.
+    canonical-url: true
     include-in-header:
+      # Visitor statistics: GoatCounter, account lenaliebich
+      # (https://lenaliebich.goatcounter.com). Cookieless, stores only
+      # aggregate counts, EU-hosted; see goatcounter.com/help/privacy.
+      #
+      # Pinned to count.v5.js with its integrity hash, so the browser refuses
+      # to run the script if the file is ever changed. The hash was checked
+      # against the served file, not just copied. To upgrade, take the new
+      # version's tag from goatcounter.com/help/countjs-versions.
+      #
+      # Visits from localhost (quarto preview, tools/make-cv-pdf.py) are
+      # ignored by count.js itself, so local work is never counted.
       text: |
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,300;0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+        <script data-goatcounter="https://lenaliebich.goatcounter.com/count" async src="https://gc.zgo.at/count.v5.js" crossorigin="anonymous" integrity="sha384-atnOLvQb9t+jTSipvd75X2yginT4PjVbqDdlJAmxMm+wYElFmeR6EmLP5bYeoRVQ"></script>
 
 # Opens links that leave the current page in a new tab. See the file for what
 # counts as "leaving" and why this is not done in the browser.
