@@ -8,8 +8,13 @@ project:
   resources:
     - ".nojekyll"          # stops GitHub Pages running Jekyll over Quarto output
     - "assets/fonts/OFL-*.txt"   # the font license travels with the published fonts
+    # Google Search Console ownership check. Must stay at the site root with
+    # its content unchanged, or Search Console loses the verification.
+    - "google130c166665a98b05.html"
   render:
     - "*.qmd"
+  # Make the sitemap agree with the canonical home-page URL; see the script
+  post-render: tools/fix-sitemap.py
 
 website:
   title: "Lena Liebich"

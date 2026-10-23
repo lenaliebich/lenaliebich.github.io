@@ -1,6 +1,14 @@
 ---
 title: "Curriculum Vitae"
 subtitle: "Last updated: October 2026"
+# The search-result snippet; description-meta keeps it out of the visible page.
+# The same text, through the &desc anchor, is the preview shown when the page
+# is shared on LinkedIn, X or Slack, which would otherwise use the subtitle.
+description-meta: &desc "CV of Lena Liebich, Postdoctoral Fellow at the Harvard Business School AI Institute: appointments, publications, education, teaching, awards and talks."
+open-graph:
+  description: *desc
+twitter-card:
+  description: *desc
 ---
 
 [Download CV (PDF)](assets/cv/Liebich-CV.pdf){.badge-link .cv-download data-goatcounter-click="cv-pdf-download" data-goatcounter-title="CV PDF download"}

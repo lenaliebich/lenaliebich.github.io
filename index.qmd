@@ -1,7 +1,20 @@
 ---
 title: "Lena Liebich"
 subtitle: "Postdoctoral Fellow, Harvard Business School AI Institute"
-pagetitle: "Lena Liebich"
+# The browser-tab and search-result title. Adding the institution also matches
+# searches for the name together with HBS, and tells a reader in the results
+# which Lena Liebich this is.
+pagetitle: "Lena Liebich – Harvard Business School AI Institute"
+# Already contains the name, so stop Quarto appending " – Lena Liebich"
+title-prefix: ""
+# The search-result snippet; description-meta keeps it out of the visible page.
+# The same text, through the &desc anchor, is the preview shown when the page
+# is shared on LinkedIn, X or Slack, which would otherwise use the subtitle.
+description-meta: &desc "Lena Liebich is a Postdoctoral Fellow at the Harvard Business School AI Institute, researching human-AI collaboration and explainable AI in organizations."
+open-graph:
+  description: *desc
+twitter-card:
+  description: *desc
 about:
   template: trestles
   image: assets/img/profile.jpg
@@ -50,6 +63,56 @@ motivating debt repayment behavior.
 
 Across my projects, I apply a behavioral lens designing and conducting a variety of incentivized behavioral experiments (online, lab-in-the-field, field) 
 and large-scale surveys - often in collaboration with industry partners across sectors (e.g. real estate, banking, fintech).
+
+<!--
+  Structured data for search engines (schema.org, JSON-LD). Not displayed.
+  Says in machine-readable form who this page is about, so search engines can
+  tell this Lena Liebich apart from others and connect the site to the same
+  person's other profiles (sameAs). Keep it in step with the bio above: role,
+  affiliations and profile links. Add an ORCID URL to sameAs once there is one.
+-->
+```{=html}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "url": "https://lenaliebich.github.io/",
+  "mainEntity": {
+    "@type": "Person",
+    "name": "Lena Liebich",
+    "url": "https://lenaliebich.github.io/",
+    "image": "https://lenaliebich.github.io/assets/img/profile.jpg",
+    "email": "mailto:lliebich@hbs.edu",
+    "jobTitle": "Postdoctoral Fellow",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Harvard Business School AI Institute",
+      "url": "https://aiinstitute.hbs.edu"
+    },
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Leibniz Institute for Financial Research SAFE",
+      "url": "https://safe-frankfurt.de"
+    },
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "Goethe University Frankfurt" },
+      { "@type": "CollegeOrUniversity", "name": "University of Bonn" }
+    ],
+    "knowsAbout": [
+      "Human-AI collaboration",
+      "Explainable artificial intelligence",
+      "Behavioral economics",
+      "Information systems",
+      "Household finance"
+    ],
+    "sameAs": [
+      "https://scholar.google.com/citations?user=cl_MymMAAAAJ",
+      "https://www.linkedin.com/in/lena-liebich"
+    ]
+  }
+}
+</script>
+```
 
 
 

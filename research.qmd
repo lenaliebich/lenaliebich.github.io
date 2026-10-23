@@ -1,5 +1,13 @@
 ---
 title: "Research"
+# The search-result snippet; description-meta keeps it out of the visible page.
+# The same text, through the &desc anchor, is the preview shown when the page
+# is shared on LinkedIn, X or Slack, which would otherwise use the subtitle.
+description-meta: &desc "Publications and working papers by Lena Liebich on explainable AI, human-AI collaboration and household finance, in Information Systems Research and ECIS."
+open-graph:
+  description: *desc
+twitter-card:
+  description: *desc
 ---
 
 Please find my publications and work in progress below.
