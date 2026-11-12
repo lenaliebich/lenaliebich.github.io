@@ -42,7 +42,7 @@ ICON_SITE = ('<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-
 CONTACT = (f'<a href="mailto:{EMAIL}">{ICON_MAIL}{EMAIL}</a>'
            f'<span class="sep">&middot;</span>'
            f'<a href="https://{SITE}">{ICON_SITE}{SITE}</a>')
-STAMP   = "Last updated: October 2026"
+STAMP   = "Last updated: November 2026"
 
 TEAL, TEAL_DK, TEAL_TINT = "#0f766e", "#0a544e", "#eaf3f1"
 
@@ -54,7 +54,9 @@ PRINT_CSS = f"""
   /* Site chrome has no place in a CV */
   .navbar, .nav-footer, #quarto-search, .quarto-title-block .subtitle,
   header#title-block-header, .kw-legend, .kw-topic, .kw-method,
-  details.abstract > summary {{ display: none !important; }}
+  details.abstract > summary,
+  /* The PDF prints full abstracts, so the short summary would repeat them */
+  .pub-summary {{ display: none !important; }}
 
   html, body {{ background: #fff !important; font-size: 9.6pt; line-height: 1.36; }}
   body {{ color: #1f2328 !important; font-family: "Spectral", Georgia, serif; }}

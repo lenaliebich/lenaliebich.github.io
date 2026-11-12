@@ -10,7 +10,7 @@ title-prefix: ""
 # The search-result snippet; description-meta keeps it out of the visible page.
 # The same text, through the &desc anchor, is the preview shown when the page
 # is shared on LinkedIn, X or Slack, which would otherwise use the subtitle.
-description-meta: &desc "Lena Liebich is a Postdoctoral Fellow at the Harvard Business School AI Institute, researching human-AI collaboration and explainable AI in organizations."
+description-meta: &desc "I am a Postdoctoral Fellow at the Harvard Business School AI Institute, researching human-AI collaboration and explainable AI in organizations."
 open-graph:
   description: *desc
 twitter-card:

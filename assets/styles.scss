@@ -197,6 +197,32 @@ div.quarto-about-trestles {
   .kw-topic, .kw-method { margin-right: 0.15rem; }
 }
 
+// ── Short summary: always visible, unlike the abstract ───────
+// Write it as ::: {.pub-summary} directly under the citation. The label
+// comes from CSS so each entry holds only the sentence itself. Left out of
+// the CV PDF (tools/make-cv-pdf.py), which prints the full abstracts.
+.pub-summary {
+  margin: 0.55rem 0 0.5rem;
+  padding: 0.55rem 0.9rem 0.6rem;
+  background: rgba($accent-tint, 0.65);
+  border-left: 3px solid $accent;
+  border-radius: 0 3px 3px 0;
+
+  &::before {
+    content: "In a nutshell";
+    display: block;
+    font-family: $font-family-sans-serif;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $accent-dk;
+    margin-bottom: 0.15rem;
+  }
+
+  p { margin: 0; font-size: 0.98rem; line-height: 1.55; color: $ink; }
+}
+
 // ── Collapsible abstract ─────────────────────────────────────
 details.abstract {
   margin: 0.45rem 0 0.55rem;

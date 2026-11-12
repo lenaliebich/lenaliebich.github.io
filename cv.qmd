@@ -1,6 +1,6 @@
 ---
 title: "Curriculum Vitae"
-subtitle: "Last updated: October 2026"
+subtitle: "Last updated: November 2026"
 # The search-result snippet; description-meta keeps it out of the visible page.
 # The same text, through the &desc anchor, is the preview shown when the page
 # is shared on LinkedIn, X or Slack, which would otherwise use the subtitle.
@@ -283,7 +283,7 @@ Fully-funded research visits to CUHK Business School and the University of Melbo
 
 **Best Discussion Award**
 
-9th SAFE Household Finance Workshop, sponsored by Behavioural Finance e.V. (€1,000)
+9th SAFE Household Finance Workshop, sponsored by Behavioral Finance e.V. (€1,000)
 
 :::
 
@@ -636,7 +636,7 @@ Research Intern, Scientific Staff
 
 - Harvard Business School AI Institute
 - Leibniz Institute for Financial Research SAFE (Research Affiliate)
-- Behavioural Finance e.V. (Member)
+- Behavioral Finance e.V. (Member)
 - Mentoring Hessen, ProCareer.Doc Program (2024 cohort)
 
 ## Personal
